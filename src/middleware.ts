@@ -3,17 +3,19 @@ import type { NextRequest } from 'next/server';
 
 // Role-based default pages
 const ROLE_ROUTES: Record<string, string> = {
-  admin: '/admin/dashboard',
-  teacher: '/teacher/today',
-  student: '/student/myday',
+  admin: '/dashboard',
+  teacher: '/today',
+  student: '/myday',
 };
 
 // Paths that require authentication
-const PROTECTED_PREFIXES = ['/admin', '/teacher', '/student'];
+const PROTECTED_PREFIXES = ['/dashboard', '/today', '/myday', '/planning', '/reports', '/settings', '/quran', '/skills', '/reading', '/stars'];
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const token = request.cookies.get('session-token')?.value;
+  // Check both development (HTTP) and production (HTTPS) NextAuth cookies
+  const token = request.cookies.get('next-auth.session-token')?.value
+    || request.cookies.get('__Secure-next-auth.session-token')?.value;
 
   // Check if the path is protected
   const isProtected = PROTECTED_PREFIXES.some((prefix) =>
@@ -56,5 +58,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/', '/admin/:path*', '/teacher/:path*', '/student/:path*'],
+  matcher: ['/', '/dashboard', '/today', '/myday', '/planning', '/reports', '/settings', '/quran', '/skills', '/reading', '/stars'],
 };

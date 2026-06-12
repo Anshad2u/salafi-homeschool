@@ -14,9 +14,9 @@ interface Profile {
 }
 
 const ROLE_ROUTES: Record<string, string> = {
-  ADMIN: "/admin/dashboard",
-  TEACHER: "/teacher/today",
-  STUDENT: "/student/myday",
+  ADMIN: "/dashboard",
+  TEACHER: "/today",
+  STUDENT: "/myday",
 };
 
 export default function LoginPage() {
