@@ -15,3 +15,4 @@ prisma/dev.db-journal
 .env.local
 
 .vercel
+.dburl_tmp\n.nextauth_tmp\n_set_db_url.py
