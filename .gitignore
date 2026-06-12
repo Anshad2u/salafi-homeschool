@@ -5,3 +5,11 @@ out/
 .env*.local
 *.tsbuildinfo
 .vercel
+
+# Local SQLite dev DB
+prisma/dev.db
+prisma/dev.db-journal
+
+# Environment variables (NEON credentials)
+.env
+.env.local
