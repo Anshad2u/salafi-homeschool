@@ -1,0 +1,31 @@
+# Salafi Homeschool SaaS CI — lint + typecheck + build
+# Deployment to Vercel happens via the Vercel <> GitLab integration on push.
+stages:
+  - test
+
+build:
+  stage: test
+  image: node:20
+  variables:
+    # Dummy URL so `prisma generate` and `next build` succeed without a live DB.
+    DATABASE_URL: "postgresql://ci:ci@localhost:5432/ci"
+    NEXTAUTH_SECRET: "ci-only-secret"
+  cache:
+    key:
+      files:
+        - package.json
+    paths:
+      - node_modules/
+  script:
+    - npm install
+    - npm run lint
+    - npm run build
+
+legacy_syntax_check:
+  stage: test
+  image: node:20-alpine
+  script:
+    - find legacy/js -name '*.js' -exec node --check {} +
+  rules:
+    - changes:
+        - legacy/**/*

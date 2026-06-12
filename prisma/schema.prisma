@@ -1,0 +1,92 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Family {
+  id           String    @id @default(cuid())
+  name         String
+  email        String    @unique
+  passwordHash String
+  settings     String    @default("{}") // JSON string: { prayerSlots, rewards }
+  createdAt    DateTime  @default(now())
+  profiles     Profile[]
+  tasks        Task[]
+}
+
+model Profile {
+  id       String  @id @default(cuid())
+  familyId String
+  family   Family  @relation(fields: [familyId], references: [id], onDelete: Cascade)
+  role     String  @default("STUDENT") // ADMIN, TEACHER, STUDENT
+  name     String
+  avatar   String  @default("👤")
+  pin      String  @default("0000")
+  age      Int?
+  grade    String?
+
+  tasks  Task[]
+  quran  QuranProgress[]
+  skills SkillProgress[]
+  books  Book[]
+
+  @@index([familyId])
+}
+
+model Task {
+  id        String    @id @default(cuid())
+  familyId  String
+  family    Family    @relation(fields: [familyId], references: [id], onDelete: Cascade)
+  profileId String
+  profile   Profile   @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  subject   String
+  title     String
+  slot      String    @default("")
+  date      String // YYYY-MM-DD
+  status    String    @default("PLANNED") // PLANNED, TAUGHT, DONE
+  score     Int?
+  notes     String    @default("")
+  doneAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([familyId, date])
+  @@index([profileId, date])
+}
+
+model QuranProgress {
+  id         String  @id @default(cuid())
+  profileId  String
+  profile    Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  surahIndex Int // 0-113
+  ayahs      Int     @default(0)
+
+  @@unique([profileId, surahIndex])
+}
+
+model SkillProgress {
+  id         String  @id @default(cuid())
+  profileId  String
+  profile    Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  subject    String
+  skillIndex Int
+  level      Int     @default(0) // 0 not started, 1 practicing, 2 proficient, 3 mastered
+
+  @@unique([profileId, subject, skillIndex])
+}
+
+model Book {
+  id        String   @id @default(cuid())
+  profileId String
+  profile   Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  title     String
+  author    String   @default("")
+  status    String   @default("READING") // READING, FINISHED, WISHLIST
+  rating    Int      @default(0)
+  createdAt DateTime @default(now())
+
+  @@index([profileId])
+}
