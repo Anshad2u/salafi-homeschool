@@ -1,23 +1,25 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { useAuth } from '@/lib/auth-context';
+import { useRouter } from 'next/navigation';
 import { todayStr, fmtDate, completionPercent } from '@/lib/utils';
-import { subj, SUBJECTS, STD_DAY } from '@/lib/curriculum';
-import TaskRow from '@/components/TaskRow';
 import ProgressBar from '@/components/ProgressBar';
 import { toast } from '@/components/Toast';
 
-interface Task {
+interface DailyTask {
   id: string;
-  title: string;
   subject: string;
-  slot: string;
   status: string;
-  score: number | null;
-  notes: string;
-  profileId: string;
+  feedback: string;
+  topic: { id: string; title: string; description: string; subject: string; strand: string; category: string; };
+}
+
+interface DailyPlan {
+  id: string;
   date: string;
+  dayNumber: number;
+  isCompleted: boolean;
+  tasks: DailyTask[];
 }
 
 interface Profile {
@@ -27,226 +29,256 @@ interface Profile {
   role: string;
 }
 
-const ACADEMIC_SUBJECTS = ['math', 'science', 'english', 'arabic'];
+const SUBJECT_META: Record<string, { emoji: string; color: string }> = {
+  quran: { emoji: '📖', color: 'bg-purple-100 text-purple-700' },
+  'islamic-studies': { emoji: '🕌', color: 'bg-green-100 text-green-700' },
+  english: { emoji: '🔤', color: 'bg-blue-100 text-blue-700' },
+  mathematics: { emoji: '🔢', color: 'bg-orange-100 text-orange-700' },
+  science: { emoji: '🔬', color: 'bg-cyan-100 text-cyan-700' },
+  'social-studies': { emoji: '🌍', color: 'bg-yellow-100 text-yellow-700' },
+  'art-music': { emoji: '🎨', color: 'bg-pink-100 text-pink-700' },
+  'physical-education': { emoji: '🏃', color: 'bg-red-100 text-red-700' },
+  'life-skills': { emoji: '🌟', color: 'bg-amber-100 text-amber-700' },
+};
+
+const STATUS_CONFIG: Record<string, { label: string; emoji: string; color: string }> = {
+  pending: { label: 'Not started', emoji: '⬜', color: 'border-gray-200' },
+  'carried-over': { label: 'Carried over', emoji: '🔄', color: 'border-yellow-300 bg-yellow-50' },
+  completed: { label: 'Done', emoji: '✅', color: 'border-green-300 bg-green-50' },
+  skipped: { label: 'Skipped', emoji: '⏭️', color: 'border-gray-300 bg-gray-50 opacity-60' },
+  'not-needed': { label: 'Not needed', emoji: '🚫', color: 'border-red-200 bg-red-50 opacity-50' },
+};
 
 export default function TeacherTodayPage() {
-  const { data: session } = useAuth();
+  const router = useRouter();
   const [dateOffset, setDateOffset] = useState(0);
-  const [tasks, setTasks] = useState<Record<string, Task[]>>({});
   const [children, setChildren] = useState<Profile[]>([]);
+  const [plans, setPlans] = useState<Record<string, DailyPlan | null>>({});
   const [loading, setLoading] = useState(true);
-  const [newTaskSubject, setNewTaskSubject] = useState<Record<string, string>>({});
-  const [newTaskTitle, setNewTaskTitle] = useState<Record<string, string>>({});
+  const [updatingTaskId, setUpdatingTaskId] = useState<string | null>(null);
 
   const currentDate = todayStr(dateOffset);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
     try {
-      const [tasksRes, familyRes] = await Promise.all([
-        fetch(`/api/tasks?date=${currentDate}`),
-        fetch('/api/family'),
-      ]);
+      const familyRes = await fetch('/api/family');
+      if (!familyRes.ok) throw new Error('Failed to fetch family');
+      const familyData = await familyRes.json();
+      const students = (familyData.profiles || []).filter((p: Profile) => p.role === 'STUDENT');
+      setChildren(students);
 
-      if (tasksRes.ok) {
-        const tasksData = await tasksRes.json();
-        // Group tasks by profileId
-        const grouped: Record<string, Task[]> = {};
-        for (const task of tasksData) {
-          if (!grouped[task.profileId]) grouped[task.profileId] = [];
-          grouped[task.profileId].push(task);
-        }
-        setTasks(grouped);
-      }
+      // Fetch daily plan for each student
+      const planPromises = students.map(async (student: Profile) => {
+        try {
+          const res = await fetch(`/api/daily-plans?profileId=${student.id}&date=${currentDate}`);
+          if (res.ok) {
+            const data = await res.json();
+            return { studentId: student.id, plan: data.plan };
+          }
+        } catch (e) {}
+        return { studentId: student.id, plan: null };
+      });
 
-      if (familyRes.ok) {
-        const familyData = await familyRes.json();
-        setChildren(familyData.profiles?.filter((p: Profile) => p.role === 'STUDENT') || []);
+      const planResults = await Promise.all(planPromises);
+      const planMap: Record<string, DailyPlan | null> = {};
+      for (const r of planResults) {
+        planMap[r.studentId] = r.plan;
       }
+      setPlans(planMap);
     } catch (err) {
       console.error('Failed to fetch data:', err);
     }
     setLoading(false);
   }, [currentDate]);
 
-  useEffect(() => {
-    fetchData();
-  }, [fetchData]);
+  useEffect(() => { fetchData(); }, [fetchData]);
 
-  const handleStatusChange = async (taskId: string, value: string) => {
-    if (value.startsWith('score:')) {
-      const score = value.replace('score:', '');
-      try {
-        await fetch(`/api/tasks/${taskId}`, {
-          method: 'PATCH',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ score: score === '' ? null : Number(score) }),
-        });
-        fetchData();
-      } catch (err) {
-        console.error('Failed to update score:', err);
-      }
-    } else if (value.startsWith('notes:')) {
-      const notes = value.replace('notes:', '');
-      try {
-        await fetch(`/api/tasks/${taskId}`, {
-          method: 'PATCH',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ notes }),
-        });
-        fetchData();
-      } catch (err) {
-        console.error('Failed to update notes:', err);
-      }
-    } else {
-      const statusMap: Record<string, string> = {
-        taught: 'TAUGHT',
-        done: 'DONE',
-        planned: 'PLANNED',
-      };
-      try {
-        await fetch(`/api/tasks/${taskId}`, {
-          method: 'PATCH',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ status: statusMap[value] || value }),
-        });
-        fetchData();
-      } catch (err) {
-        console.error('Failed to update status:', err);
-      }
-    }
-  };
-
-  const handleAddTask = async (profileId: string) => {
-    const subject = newTaskSubject[profileId];
-    const title = newTaskTitle[profileId];
-    if (!subject || !title?.trim()) {
-      toast('Please select a subject and enter a task title');
-      return;
-    }
-
+  const handleTaskStatus = async (taskId: string, status: string) => {
+    setUpdatingTaskId(taskId);
     try {
-      await fetch('/api/tasks', {
-        method: 'POST',
+      const res = await fetch('/api/daily-plans', {
+        method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          profileId,
-          subject,
-          title: title.trim(),
-          date: currentDate,
-          status: 'PLANNED',
-        }),
+        body: JSON.stringify({ taskId, status }),
       });
-      setNewTaskTitle((prev) => ({ ...prev, [profileId]: '' }));
-      fetchData();
-      toast('Task added! ✅');
+      if (res.ok) {
+        toast(status === 'completed' ? '✅ Done!' : status === 'skipped' ? '⏭️ Skipped' : '🚫 Marked not needed');
+        fetchData();
+      }
     } catch (err) {
-      console.error('Failed to add task:', err);
+      toast('Failed to update task');
     }
+    setUpdatingTaskId(null);
   };
 
-  const handleDeleteTask = async (taskId: string) => {
-    try {
-      await fetch(`/api/tasks/${taskId}`, { method: 'DELETE' });
-      fetchData();
-    } catch (err) {
-      console.error('Failed to delete task:', err);
-    }
-  };
+  const hasAnyPlan = Object.values(plans).some(p => p !== null);
 
   if (loading) {
-    return <div className="container" style={{ textAlign: 'center', padding: '2rem' }}>Loading...</div>;
+    return (
+      <div className="flex items-center justify-center py-12">
+        <div className="text-gray-500">Loading today&apos;s plan...</div>
+      </div>
+    );
   }
 
   return (
     <div>
       {/* Date Navigator */}
-      <div className="spread" style={{ marginBottom: '1rem' }}>
-        <button className="btn btn-soft" onClick={() => setDateOffset((o) => o - 1)}>
+      <div className="flex items-center justify-between mb-4">
+        <button className="px-3 py-1 text-sm bg-gray-100 rounded-lg hover:bg-gray-200" onClick={() => setDateOffset(o => o - 1)}>
           ← Prev
         </button>
-        <h2 style={{ margin: 0 }}>{fmtDate(currentDate)}</h2>
-        <button className="btn btn-soft" onClick={() => setDateOffset((o) => o + 1)}>
+        <h2 className="text-lg font-bold text-gray-800">{fmtDate(currentDate)}</h2>
+        <button className="px-3 py-1 text-sm bg-gray-100 rounded-lg hover:bg-gray-200" onClick={() => setDateOffset(o => o + 1)}>
           Next →
         </button>
       </div>
 
       {children.length === 0 ? (
-        <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
-          No children profiles found.
+        <div className="text-center py-8 text-gray-500">No students found. Set up profiles first.</div>
+      ) : !hasAnyPlan ? (
+        <div className="text-center py-12">
+          <div className="text-5xl mb-4">📚</div>
+          <h3 className="text-lg font-bold text-gray-800 mb-2">No Curriculum Plan Yet</h3>
+          <p className="text-gray-500 mb-4">Set up a learning plan for each child to see their daily tasks here.</p>
+          <button
+            onClick={() => router.push('/onboarding')}
+            className="px-6 py-3 bg-emerald-600 text-white rounded-xl font-semibold hover:bg-emerald-700"
+          >
+            Set Up Curriculum Plan →
+          </button>
         </div>
       ) : (
         children.map((child) => {
-          const childTasks = tasks[child.id] || [];
-          const pct = completionPercent(childTasks);
-
-          return (
-            <div key={child.id} className="card" style={{ marginBottom: '1.5rem' }}>
-              {/* Child Header */}
-              <div className="spread" style={{ marginBottom: '0.75rem' }}>
-                <div className="row" style={{ gap: '0.5rem', alignItems: 'center' }}>
-                  <span className="avatar" style={{ fontSize: '1.5rem' }}>{child.avatar}</span>
-                  <strong>{child.name}</strong>
+          const plan = plans[child.id];
+          if (!plan) {
+            return (
+              <div key={child.id} className="bg-white rounded-xl border border-gray-200 p-4 mb-4">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">{child.avatar}</span>
+                  <span className="font-bold">{child.name}</span>
                 </div>
-                {pct !== null && (
-                  <span className="muted">{pct}%</span>
-                )}
-              </div>
-
-              {pct !== null && <ProgressBar percent={pct} />}
-
-              {/* Task List */}
-              {childTasks.length === 0 ? (
-                <div className="muted" style={{ padding: '1rem 0', textAlign: 'center' }}>
-                  No tasks yet for this day
-                </div>
-              ) : (
-                childTasks.map((task) => (
-                  <TaskRow
-                    key={task.id}
-                    task={task}
-                    showActions
-                    showScore={ACADEMIC_SUBJECTS.includes(task.subject)}
-                    showNotes
-                    onStatusChange={handleStatusChange}
-                    onDelete={handleDeleteTask}
-                  />
-                ))
-              )}
-
-              {/* Quick Add Form */}
-              <div className="row" style={{ marginTop: '0.75rem', gap: '0.5rem', flexWrap: 'wrap' }}>
-                <select
-                  className="btn btn-soft"
-                  value={newTaskSubject[child.id] || ''}
-                  onChange={(e) =>
-                    setNewTaskSubject((prev) => ({ ...prev, [child.id]: e.target.value }))
-                  }
+                <div className="text-sm text-gray-500 mb-2">No plan for this student yet.</div>
+                <button
+                  onClick={() => router.push('/onboarding')}
+                  className="text-sm px-3 py-1 bg-emerald-100 text-emerald-700 rounded-lg hover:bg-emerald-200"
                 >
-                  <option value="">Subject...</option>
-                  {SUBJECTS.map((s) => (
-                    <option key={s.id} value={s.id}>
-                      {s.icon} {s.name}
-                    </option>
-                  ))}
-                </select>
-                <input
-                  className="btn btn-soft"
-                  type="text"
-                  placeholder="Task title..."
-                  value={newTaskTitle[child.id] || ''}
-                  onChange={(e) =>
-                    setNewTaskTitle((prev) => ({ ...prev, [child.id]: e.target.value }))
-                  }
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') handleAddTask(child.id);
-                  }}
-                  style={{ flex: 1, minWidth: '150px' }}
-                />
-                <button className="btn" onClick={() => handleAddTask(child.id)}>
-                  + Add
+                  Set Up Plan
                 </button>
               </div>
+            );
+          }
+
+          const completed = plan.tasks.filter(t => t.status === 'completed').length;
+          const total = plan.tasks.length;
+          const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+
+          // Group tasks by subject
+          const bySubject: Record<string, DailyTask[]> = {};
+          for (const t of plan.tasks) {
+            if (!bySubject[t.subject]) bySubject[t.subject] = [];
+            bySubject[t.subject].push(t);
+          }
+
+          const carriedOver = plan.tasks.filter(t => t.status === 'carried-over');
+
+          return (
+            <div key={child.id} className="bg-white rounded-xl border border-gray-200 p-4 mb-4">
+              {/* Student Header */}
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">{child.avatar}</span>
+                  <div>
+                    <div className="font-bold text-gray-800">{child.name}</div>
+                    <div className="text-xs text-gray-500">Day {plan.dayNumber} of 365</div>
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="text-lg font-bold text-emerald-600">{pct}%</div>
+                  <div className="text-xs text-gray-500">{completed}/{total} done</div>
+                </div>
+              </div>
+
+              <ProgressBar percent={pct} />
+
+              {/* Carried Over Warning */}
+              {carriedOver.length > 0 && (
+                <div className="mt-3 p-2 bg-yellow-50 border border-yellow-200 rounded-lg text-sm text-yellow-700">
+                  🔄 {carriedOver.length} task{carriedOver.length > 1 ? 's' : ''} carried over from previous days
+                </div>
+              )}
+
+              {/* Tasks by Subject */}
+              {Object.entries(bySubject).map(([subject, subjectTasks]) => {
+                const meta = SUBJECT_META[subject] || { emoji: '📚', color: 'bg-gray-100 text-gray-700' };
+                const subCompleted = subjectTasks.filter(t => t.status === 'completed').length;
+
+                return (
+                  <div key={subject} className="mt-3">
+                    <div className={`flex items-center gap-2 px-3 py-1.5 rounded-lg ${meta.color} mb-1.5`}>
+                      <span>{meta.emoji}</span>
+                      <span className="font-semibold text-sm capitalize">{subject.replace('-', ' ')}</span>
+                      <span className="text-xs ml-auto">{subCompleted}/{subjectTasks.length}</span>
+                    </div>
+
+                    {subjectTasks.map(task => {
+                      const statusCfg = STATUS_CONFIG[task.status] || STATUS_CONFIG.pending;
+                      const isUpdating = updatingTaskId === task.id;
+
+                      return (
+                        <div
+                          key={task.id}
+                          className={`flex items-start gap-2 p-2.5 mx-1 mb-1 rounded-lg border ${statusCfg.color} transition-all`}
+                        >
+                          <span className="text-base mt-0.5">{statusCfg.emoji}</span>
+                          <div className="flex-1 min-w-0">
+                            <div className="text-sm font-medium text-gray-800">{task.topic.title}</div>
+                            <div className="text-xs text-gray-500 truncate">{task.topic.description}</div>
+                          </div>
+
+                          {task.status === 'pending' || task.status === 'carried-over' ? (
+                            <div className="flex gap-1 shrink-0">
+                              <button
+                                disabled={isUpdating}
+                                onClick={() => handleTaskStatus(task.id, 'completed')}
+                                className="px-2 py-1 text-xs bg-green-100 text-green-700 rounded hover:bg-green-200 transition"
+                                title="Mark as done"
+                              >
+                                ✅
+                              </button>
+                              <button
+                                disabled={isUpdating}
+                                onClick={() => handleTaskStatus(task.id, 'skipped')}
+                                className="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded hover:bg-gray-200 transition"
+                                title="Skip this task"
+                              >
+                                ⏭️
+                              </button>
+                              <button
+                                disabled={isUpdating}
+                                onClick={() => handleTaskStatus(task.id, 'not-needed')}
+                                className="px-2 py-1 text-xs bg-red-100 text-red-600 rounded hover:bg-red-200 transition"
+                                title="Not needed for this child"
+                              >
+                                🚫
+                              </button>
+                            </div>
+                          ) : (
+                            <button
+                              onClick={() => handleTaskStatus(task.id, 'pending')}
+                              className="text-xs text-gray-400 hover:text-gray-600 shrink-0"
+                              title="Reset to pending"
+                            >
+                              ↩️
+                            </button>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                );
+              })}
             </div>
           );
         })

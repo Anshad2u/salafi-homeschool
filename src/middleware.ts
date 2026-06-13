@@ -58,5 +58,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/', '/dashboard', '/today', '/myday', '/planning', '/reports', '/settings', '/quran', '/skills', '/reading', '/stars'],
+  matcher: ['/', '/dashboard', '/today', '/myday', '/planning', '/reports', '/settings', '/quran', '/skills', '/reading', '/stars', '/onboarding'],
 };

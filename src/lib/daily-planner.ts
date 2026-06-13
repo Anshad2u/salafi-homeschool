@@ -258,7 +258,7 @@ export async function getTodayPlan(profileId: string) {
  */
 export async function updateTaskStatus(
   taskId: string,
-  status: 'completed' | 'skipped' | 'not-needed',
+  status: 'completed' | 'skipped' | 'not-needed' | 'pending',
   feedback?: string,
 ) {
   return prisma.dailyPlanTask.update({
