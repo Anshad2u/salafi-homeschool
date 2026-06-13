@@ -12,8 +12,8 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
   const router = useRouter();
   const pathname = usePathname();
 
-  // Extract active route from pathname: /teacher/X → X
-  const activeRoute = pathname.replace(/^\/teacher\//, '').split('/')[0] || 'today';
+  // Extract active route from pathname (route groups don't appear in URL)
+  const activeRoute = pathname.replace('/', '').split('/')[0] || 'today';
 
   useEffect(() => {
     document.body.setAttribute('data-theme', 'teacher');
@@ -32,7 +32,7 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
   if (!session?.user) return null;
 
   const handleNavigate = (route: string) => {
-    router.push('/teacher/' + route);
+    router.push('/' + route);
   };
 
   const handleLogout = () => {

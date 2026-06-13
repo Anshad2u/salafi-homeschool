@@ -1,0 +1,7611 @@
+[
+  {
+    "id": "s-ar-letters-001",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Alif",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Alif by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-001",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Alif",
+    "description": "Practice writing the letter Alif in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-001",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Alif in word positions",
+    "description": "Learn how Alif changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-001"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-002",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ba",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ba by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-002",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ba",
+    "description": "Practice writing the letter Ba in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-002"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-002",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Ba in word positions",
+    "description": "Learn how Ba changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-002"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-003",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ta",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ta by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-003",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ta",
+    "description": "Practice writing the letter Ta in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-003"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-003",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Ta in word positions",
+    "description": "Learn how Ta changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-003"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-004",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Tha",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Tha by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-004",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Tha",
+    "description": "Practice writing the letter Tha in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-004"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-004",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Tha in word positions",
+    "description": "Learn how Tha changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-004"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-005",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Jeem",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Jeem by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-005",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Jeem",
+    "description": "Practice writing the letter Jeem in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-005"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-005",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Jeem in word positions",
+    "description": "Learn how Jeem changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-005"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-006",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ha",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ha by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-006",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ha",
+    "description": "Practice writing the letter Ha in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-006"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-006",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Ha in word positions",
+    "description": "Learn how Ha changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-006"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-007",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Kha",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Kha by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-007",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Kha",
+    "description": "Practice writing the letter Kha in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-007"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-007",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Kha in word positions",
+    "description": "Learn how Kha changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-007"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-008",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Dal",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Dal by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-008",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Dal",
+    "description": "Practice writing the letter Dal in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-008"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-008",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Dal in word positions",
+    "description": "Learn how Dal changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-008"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-009",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Dhal",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Dhal by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-009",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Dhal",
+    "description": "Practice writing the letter Dhal in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-009"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-009",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Dhal in word positions",
+    "description": "Learn how Dhal changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-009"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-010",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ra",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ra by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-010",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ra",
+    "description": "Practice writing the letter Ra in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-010"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-pos-010",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Letter Ra in word positions",
+    "description": "Learn how Ra changes shape in initial, medial, and final positions",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-write-010"
+    ],
+    "materials": "position cards"
+  },
+  {
+    "id": "s-ar-letters-011",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Zay",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Zay by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-011",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Zay",
+    "description": "Practice writing the letter Zay in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-011"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-012",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Seen",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Seen by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-012",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Seen",
+    "description": "Practice writing the letter Seen in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-012"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-013",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Sheen",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Sheen by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-013",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Sheen",
+    "description": "Practice writing the letter Sheen in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-013"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-014",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Sad",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Sad by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-014",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Sad",
+    "description": "Practice writing the letter Sad in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-014"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-015",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Dad",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Dad by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-015",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Dad",
+    "description": "Practice writing the letter Dad in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-015"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-016",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ta (emphatic)",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ta (emphatic) by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-016",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ta (emphatic)",
+    "description": "Practice writing the letter Ta (emphatic) in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-016"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-017",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Za (emphatic)",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Za (emphatic) by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-017",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Za (emphatic)",
+    "description": "Practice writing the letter Za (emphatic) in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-017"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-018",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ayn",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ayn by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-018",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ayn",
+    "description": "Practice writing the letter Ayn in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-018"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-019",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ghayn",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ghayn by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-019",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ghayn",
+    "description": "Practice writing the letter Ghayn in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-019"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-020",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Fa",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Fa by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-020",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Fa",
+    "description": "Practice writing the letter Fa in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-020"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-021",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Qaf",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Qaf by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-021",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Qaf",
+    "description": "Practice writing the letter Qaf in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-021"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-022",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Kaf",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Kaf by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-022",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Kaf",
+    "description": "Practice writing the letter Kaf in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-022"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-023",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Lam",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Lam by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-023",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Lam",
+    "description": "Practice writing the letter Lam in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-023"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-024",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Meem",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Meem by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-024",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Meem",
+    "description": "Practice writing the letter Meem in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-024"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-025",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Noon",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Noon by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-025",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Noon",
+    "description": "Practice writing the letter Noon in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-025"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-026",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ha",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ha by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-026",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ha",
+    "description": "Practice writing the letter Ha in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-026"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-027",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Waw",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Waw by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-027",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Waw",
+    "description": "Practice writing the letter Waw in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-027"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-ar-letters-028",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize Arabic letter: Ya",
+    "description": "Learn to identify and pronounce the Hijaiyah letter Ya by sight and sound",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [
+      ""
+    ],
+    "materials": "tajweed card, letter poster"
+  },
+  {
+    "id": "s-ar-write-028",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Write Arabic letter: Ya",
+    "description": "Practice writing the letter Ya in isolated form with proper stroke order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "s-ar-letters-028"
+    ],
+    "materials": "tracing worksheet, sand tray"
+  },
+  {
+    "id": "s-madd-alif-madd",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Learn Alif Madd elongation",
+    "description": "Understand extended vowel sound with Alif Madd in Quranic text",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "audio clips, letter cards"
+  },
+  {
+    "id": "s-madd-waw-madd",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Learn Waw Madd elongation",
+    "description": "Understand extended vowel sound with Waw Madd in Quranic text",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "audio clips, letter cards"
+  },
+  {
+    "id": "s-madd-ya-madd",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Learn Ya Madd elongation",
+    "description": "Understand extended vowel sound with Ya Madd in Quranic text",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "audio clips, letter cards"
+  },
+  {
+    "id": "s-sukoon",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Sukoon (no vowel)",
+    "description": "Learn to identify and pronounce sukoon mark on Arabic letters",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-madd-alif-madd"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-shaddah",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Shaddah (doubling)",
+    "description": "Learn shaddah mark indicating letter doubling in Quranic recitation",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-sukoon"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tanween",
+    "subject": "quran",
+    "strand": "arabic-letters",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Tanween (nunation)",
+    "description": "Learn the three tanween marks: fathah, kasrah, dammah with nun sound",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-shaddah"
+    ],
+    "materials": "recitation examples"
+  },
+  {
+    "id": "s-recite-114",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Recite Surah An-Nas",
+    "description": "Learn to recite Surah An-Nas (114) from Quran with correct pronunciation. Lesson: Seeking refuge in Allah from evil",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-114",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah An-Nas",
+    "description": "Understand the basic meaning and key lesson of Surah An-Nas: Seeking refuge in Allah from evil",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-113",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Falaq",
+    "description": "Learn to recite Surah Al-Falaq (113) from Quran with correct pronunciation. Lesson: Morning and evening refuge",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-113",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Falaq",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Falaq: Morning and evening refuge",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-113"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-112",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Ikhlas",
+    "description": "Learn to recite Surah Al-Ikhlas (112) from Quran with correct pronunciation. Lesson: Pure monotheism - Allah is One",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-112",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Ikhlas",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Ikhlas: Pure monotheism - Allah is One",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-112"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-109",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Kafirun",
+    "description": "Learn to recite Surah Al-Kafirun (109) from Quran with correct pronunciation. Lesson: Rejection of polytheism",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-109",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 1,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Kafirun",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Kafirun: Rejection of polytheism",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-109"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-111",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Recite Surah Al-Masad",
+    "description": "Learn to recite Surah Al-Masad (111) from Quran with correct pronunciation. Lesson: Warning to Abu Lahab",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-111",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Meaning of Surah Al-Masad",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Masad: Warning to Abu Lahab",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-111"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-110",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Recite Surah An-Nasr",
+    "description": "Learn to recite Surah An-Nasr (110) from Quran with correct pronunciation. Lesson: Divine help and victory",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-110",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Meaning of Surah An-Nasr",
+    "description": "Understand the basic meaning and key lesson of Surah An-Nasr: Divine help and victory",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-110"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-103",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Recite Surah Al-Asr",
+    "description": "Learn to recite Surah Al-Asr (103) from Quran with correct pronunciation. Lesson: Time and human loss",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-103",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Meaning of Surah Al-Asr",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Asr: Time and human loss",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-103"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-104",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Recite Surah Al-Humazah",
+    "description": "Learn to recite Surah Al-Humazah (104) from Quran with correct pronunciation. Lesson: Warning against backbiting",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-104",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 2,
+    "ageGroup": "4-5",
+    "title": "Meaning of Surah Al-Humazah",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Humazah: Warning against backbiting",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-104"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-105",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Recite Surah Al-Fil",
+    "description": "Learn to recite Surah Al-Fil (105) from Quran with correct pronunciation. Lesson: Elephant army destroyed",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-105",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Meaning of Surah Al-Fil",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Fil: Elephant army destroyed",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-105"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-106",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Recite Surah Quraysh",
+    "description": "Learn to recite Surah Quraysh (106) from Quran with correct pronunciation. Lesson: Allah's provision to Quraysh",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-106",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Meaning of Surah Quraysh",
+    "description": "Understand the basic meaning and key lesson of Surah Quraysh: Allah's provision to Quraysh",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-106"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-107",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Recite Surah Al-Ma'un",
+    "description": "Learn to recite Surah Al-Ma'un (107) from Quran with correct pronunciation. Lesson: Neglect of orphans and prayer",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-107",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Meaning of Surah Al-Ma'un",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Ma'un: Neglect of orphans and prayer",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-107"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-108",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Recite Surah Al-Kawthar",
+    "description": "Learn to recite Surah Al-Kawthar (108) from Quran with correct pronunciation. Lesson: Abundance from Allah",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-108",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Meaning of Surah Al-Kawthar",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Kawthar: Abundance from Allah",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-108"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-001",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Recite Surah Al-Fatihah",
+    "description": "Learn to recite Surah Al-Fatihah (1) from Quran with correct pronunciation. Lesson: Opening chapter - essence of worship",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "Quran mushaf, audio recitation"
+  },
+  {
+    "id": "s-mean-001",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 3,
+    "ageGroup": "5-6",
+    "title": "Meaning of Surah Al-Fatihah",
+    "description": "Understand the basic meaning and key lesson of Surah Al-Fatihah: Opening chapter - essence of worship",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-recite-001"
+    ],
+    "materials": "translated Quran, story cards"
+  },
+  {
+    "id": "s-recite-098",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Bayyinah",
+    "description": "Learn to recite Surah Al-Bayyinah (98). Lesson: Clear proof of prophethood",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-098",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Bayyinah",
+    "description": "Understand the message of Surah Al-Bayyinah: Clear proof of prophethood",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-098"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-099",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Az-Zalzalah",
+    "description": "Learn to recite Surah Az-Zalzalah (99). Lesson: Earthquake of the Day of Judgment",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-099",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Az-Zalzalah",
+    "description": "Understand the message of Surah Az-Zalzalah: Earthquake of the Day of Judgment",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-099"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-100",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Adiyat",
+    "description": "Learn to recite Surah Al-Adiyat (100). Lesson: Horses in battle",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-100",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Adiyat",
+    "description": "Understand the message of Surah Al-Adiyat: Horses in battle",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-100"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-101",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Qariah",
+    "description": "Learn to recite Surah Al-Qariah (101). Lesson: The Striking Hour",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-101",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Qariah",
+    "description": "Understand the message of Surah Al-Qariah: The Striking Hour",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-101"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-102",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah At-Takathur",
+    "description": "Learn to recite Surah At-Takathur (102). Lesson: Competition in worldly increase",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-102",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah At-Takathur",
+    "description": "Understand the message of Surah At-Takathur: Competition in worldly increase",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-102"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-083",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Mutaffifin",
+    "description": "Learn to recite Surah Al-Mutaffifin (83). Lesson: Warning against fraud",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-083",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Mutaffifin",
+    "description": "Understand the message of Surah Al-Mutaffifin: Warning against fraud",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-083"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-082",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Infitar",
+    "description": "Learn to recite Surah Al-Infitar (82). Lesson: The splitting of the sky",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-082",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Infitar",
+    "description": "Understand the message of Surah Al-Infitar: The splitting of the sky",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-082"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-084",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Inshiqaq",
+    "description": "Learn to recite Surah Al-Inshiqaq (84). Lesson: The cleaving of the sky",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-084",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Inshiqaq",
+    "description": "Understand the message of Surah Al-Inshiqaq: The cleaving of the sky",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-084"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-085",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah Al-Buruj",
+    "description": "Learn to recite Surah Al-Buruj (85). Lesson: Stories of the people of the ditch",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-085",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah Al-Buruj",
+    "description": "Understand the message of Surah Al-Buruj: Stories of the people of the ditch",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-085"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "s-recite-095",
+    "subject": "quran",
+    "strand": "quran-recitation",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recite Surah At-Tin",
+    "description": "Learn to recite Surah At-Tin (95). Lesson: Oath by fig and olive",
+    "category": "practice",
+    "estimatedSessions": 4,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "Quran mushaf, audio"
+  },
+  {
+    "id": "s-mean-095",
+    "subject": "quran",
+    "strand": "quran-understanding",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meaning of Surah At-Tin",
+    "description": "Understand the message of Surah At-Tin: Oath by fig and olive",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-095"
+    ],
+    "materials": "translated Quran"
+  },
+  {
+    "id": "hifz-114",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Memorize Surah An-Nas",
+    "description": "Commit Surah An-Nas to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-114"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "hifz-113",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Memorize Surah Al-Falaq",
+    "description": "Commit Surah Al-Falaq to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-113"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "hifz-112",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Memorize Surah Al-Ikhlas",
+    "description": "Commit Surah Al-Ikhlas to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-112"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "hifz-109",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Memorize Surah Al-Kafirun",
+    "description": "Commit Surah Al-Kafirun to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-109"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "hifz-111",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Memorize Surah Al-Masad",
+    "description": "Commit Surah Al-Masad to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-111"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "hifz-110",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 4,
+    "ageGroup": "4-5",
+    "title": "Memorize Surah An-Nasr",
+    "description": "Commit Surah An-Nasr to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-110"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "hifz-103",
+    "subject": "quran",
+    "strand": "quran-memorization",
+    "level": 4,
+    "ageGroup": "4-5",
+    "title": "Memorize Surah Al-Asr",
+    "description": "Commit Surah Al-Asr to memory with fluency",
+    "category": "mastery",
+    "estimatedSessions": 5,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-103"
+    ],
+    "materials": "revision chart, reward stickers"
+  },
+  {
+    "id": "s-tajweed-001",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Makharij basics - letter exit points",
+    "description": "Learn the basic articulation points (makharij) for Arabic letters",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-ar-letters-001"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-002",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Noon Sakinah rules",
+    "description": "Learn when noon sakinah gets ghunnah (nasalization) vs idgham",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-sukoon"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-003",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Meem Sakinah rules",
+    "description": "Learn the three rules of meem sakinah: idgham, ikhfa, izhar",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-shaddah"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-004",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Lam Shamsiyah and Qamariyah",
+    "description": "Learn when lam is pronounced and when it is silent",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "s-shaddah"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-005",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Madd rules (elongation)",
+    "description": "Learn the different types of madd and their durations (2, 4, 6 counts)",
+    "category": "mastery",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-madd-alif-madd"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-006",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 7,
+    "ageGroup": "5-6",
+    "title": "Rules of stopping (Waqf)",
+    "description": "Learn where to pause and not pause during recitation",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-001"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-007",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Qalqalah (echoing sound)",
+    "description": "Learn qalqalah in letters Jeem, Ba, Dal, Ta, Qaf when sukoon is on them",
+    "category": "mastery",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-sukoon"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "s-tajweed-008",
+    "subject": "quran",
+    "strand": "tajweed",
+    "level": 9,
+    "ageGroup": "6-7",
+    "title": "Advanced tajweed application",
+    "description": "Apply all tajweed rules fluently in continuous recitation",
+    "category": "mastery",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "s-recite-001",
+      "s-tajweed-007"
+    ],
+    "materials": "tajweed chart"
+  },
+  {
+    "id": "is-aq-001",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Allah is the Creator",
+    "description": "Show child the beauty of nature and say 'Allah made this' — building awareness of Creator",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-002",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Allah sees me and hears me",
+    "description": "Teach child that Allah watches over us always — builds consciousness (taqwa)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-003",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 3,
+    "ageGroup": "1-2",
+    "title": "Allah is One (Tawheed)",
+    "description": "Simple lesson: Allah is One, no partners. Say 'La ilaha illallah' together",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-004",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 4,
+    "ageGroup": "2-3",
+    "title": "Allah sent the Quran",
+    "description": "Teach that Allah's final book is the Quran, sent to Prophet Muhammad ﷺ",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "is-aq-003"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-005",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 5,
+    "ageGroup": "2-3",
+    "title": "Allah sent many prophets",
+    "description": "Learn that Allah sent prophets to guide people — starting with Adam",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-aq-003"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-006",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Angels are Allah's creation",
+    "description": "Learn about Jibril, Mikail, Israfil, Azrael — angels do Allah's commands",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-007",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 7,
+    "ageGroup": "3-4",
+    "title": "The Four Holy Books",
+    "description": "Learn: Taurat (Musa), Zaboor (Dawud), Injeel (Isa), Quran (Muhammad ﷺ)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-aq-004"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-008",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 8,
+    "ageGroup": "4-5",
+    "title": "Day of Judgment basics",
+    "description": "People will be judged for their deeds — be ready by doing good",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-009",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Predestination (Qadr)",
+    "description": "Everything happens by Allah's will and wisdom — trust Allah",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-010",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "The Five Pillars overview",
+    "description": "Shahada, Salah, Zakat, Sawm, Hajj — the foundation of Islam",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-aq-011",
+    "subject": "islamic-studies",
+    "strand": "aqeedah",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Iman in detail",
+    "description": "Deepen understanding of six articles of faith with Quranic evidence",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-aq-010"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-001",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 1,
+    "ageGroup": "2-3",
+    "title": "Birth of Prophet Muhammad ﷺ",
+    "description": "Learn about the special night of the Prophet's birth in Makkah",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-se-002",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Halimah the wet nurse",
+    "description": "Young Muhammad ﷺ was cared for by Halimah in the desert",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-se-001"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-003",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "The young Prophet in Makkah",
+    "description": "Childhood and youth of Prophet ﷺ — known as Al-Amin (the trustworthy)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-se-004",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Khadijah r.a. — first wife",
+    "description": "Prophet ﷺ married Khadijah, a noble and supportive woman",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-se-005",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Revelation in Cave Hira",
+    "description": "Angel Jibril brought the first revelation: 'Iqra bismi rabbika' (Read!)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "is-aq-004"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-006",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Early Muslims in Makkah",
+    "description": "Learn about early believers: Abu Bakr, Ali, Zayd, Sumayyah r.a.",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-se-005"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-007",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 7,
+    "ageGroup": "5-6",
+    "title": "The Hijrah to Madinah",
+    "description": "Prophet ﷺ migrated from Makkah to Madinah — the start of Islamic calendar",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [
+      "is-se-006"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-008",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Life in Madinah",
+    "description": "Building the mosque, brotherhood between Muhajireen and Ansar",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-se-007"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-009",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 9,
+    "ageGroup": "6-7",
+    "title": "Key battles: Badr and Uhud",
+    "description": "Lessons from the early battles — trust in Allah and obedience",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-se-008"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-010",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 10,
+    "ageGroup": "6-7",
+    "title": "Conquest of Makkah",
+    "description": "Peaceful return to Makkah — forgiveness and mercy of Prophet ﷺ",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-se-009"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-se-011",
+    "subject": "islamic-studies",
+    "strand": "seerah",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Character of Prophet ﷺ",
+    "description": "His kindness, patience, honesty, humor, and mercy to all",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-001",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 1,
+    "ageGroup": "2-3",
+    "title": "Prophet Adam a.s. — first human",
+    "description": "Allah created Adam from clay and taught him all names",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-002",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 2,
+    "ageGroup": "3-4",
+    "title": "Prophet Nuh a.s. — the ark",
+    "description": "Nuh built the ark by Allah's command and saved the believers",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-003",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Prophet Ibrahim a.s. — friend of Allah",
+    "description": "Ibrahim searched for Allah and destroyed idols — father of prophets",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-004",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 4,
+    "ageGroup": "4-5",
+    "title": "Prophet Ismail a.s. — sacrifice",
+    "description": "Ibrahim's willingness to sacrifice his son — lesson of obedience",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-pr-003"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-005",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Prophet Lut a.s. — standing for truth",
+    "description": "Lut warned his people against evil — lesson of courage",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-006",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Prophet Yusuf a.s. — patience and beauty",
+    "description": "Yusuf's story: thrown in well, Egypt, patience, reunion with family",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-007",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "Prophet Musa a.s. — birth in the river",
+    "description": "Baby Musa in the basket, raised by Fir'awn, staff miracle",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-008",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Prophet Sulaiman a.s. — wisdom and kingdom",
+    "description": "Sulaiman's kingdom, speaking with ants and birds, judgment",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-009",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Prophet Dawud a.s. — shepherd and king",
+    "description": "Dawud's devotion, psalms (Zaboor), defeating Jalut",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-010",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Prophet Yunus a.s. — patience in darkness",
+    "description": "Yunus swallowed by whale, his prayer from the darkness — repentance",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-011",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Prophet Isa a.s. — birth and miracles",
+    "description": "Isa born to Maryam, miracles by Allah's permission, not divine",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-pr-012",
+    "subject": "islamic-studies",
+    "strand": "prophets-stories",
+    "level": 12,
+    "ageGroup": "6-7",
+    "title": "Prophet Ayyub a.s. — patience in suffering",
+    "description": "Ayyub lost everything but never lost faith — Allah restored him",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-001",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 1,
+    "ageGroup": "2-3",
+    "title": "Cleanliness is half of faith",
+    "description": "Learn that Allah loves cleanliness — washing hands, face, body",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-002",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 2,
+    "ageGroup": "3-4",
+    "title": "Wudu steps (ablution)",
+    "description": "Learn the 6 steps of wudu: face, arms, head, ears, feet",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "hands-on",
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-fq-001"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-003",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "When to make wudu",
+    "description": "Before salah, after using toilet, after sleeping, after touching dogs",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-fq-002"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-004",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Allah wants us to pray",
+    "description": "Learn that salah is a gift from Allah — talking to Him 5 times a day",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-005",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Steps of Salah — standing",
+    "description": "Learn the physical positions: standing (qiyam), hands on chest",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "hands-on",
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-fq-004"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-006",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Steps of Salah — bowing and prostrating",
+    "description": "Learn ruku and sujud — the most important parts of salah",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "is-fq-005"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-007",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "The 5 daily prayers",
+    "description": "Fajr, Dhuhr, Asr, Maghrib, Isha — names and approximate times",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-008",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Saying the Adhan",
+    "description": "Learn the words of the adhan and its meaning",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-fq-007"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-009",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Praying in congregation",
+    "description": "Learn to pray behind imam in the mosque — standing in rows",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-fq-006"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-010",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Fasting basics (Ramadan)",
+    "description": "Learn why we fast, what breaks the fast, the reward of Ramadan",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-011",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Complete salah with confidence",
+    "description": "Pray all 5 daily prayers independently with correct recitation",
+    "category": "mastery",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [
+      "is-fq-006"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-012",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 12,
+    "ageGroup": "6-7",
+    "title": "Zakat and charity concepts",
+    "description": "Learn about giving to those in need — the 2.5% rule, voluntary sadaqah",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-fq-013",
+    "subject": "islamic-studies",
+    "strand": "fiqh",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Hajj basics",
+    "description": "Learn about the pilgrimage to Makkah — what pilgrims do and why",
+    "category": "introduction",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-001",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 1,
+    "ageGroup": "1-2",
+    "title": "Bismillah before eating",
+    "description": "Say Bismillah before every meal — thanking Allah for food",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-002",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Alhamdulillah after eating",
+    "description": "Say Alhamdulillah after finishing food",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-dc-001"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-003",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Dua before sleep",
+    "description": "Learn: Bismika Allahumma amutu wa ahya — In Your name O Allah I die and live",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-004",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 4,
+    "ageGroup": "2-3",
+    "title": "Dua when waking up",
+    "description": "Learn: Alhamdulillahilladhi ahyana ba'da ma amatana — praise to Allah who revived us",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-005",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Entering the mosque",
+    "description": "Learn: Allahumma aftah li abwaba rahmatik — O Allah open for me the doors of Your mercy",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-006",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Leaving the mosque",
+    "description": "Learn: Allahumma inni as'aluka min fadlik — O Allah I ask You from Your bounty",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-007",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 7,
+    "ageGroup": "3-4",
+    "title": "Dua when leaving home",
+    "description": "Bismillahi tawakkaltu 'alallah — In Allah's name I trust Allah",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-008",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 8,
+    "ageGroup": "3-4",
+    "title": "Dua when entering home",
+    "description": "Bismillahi walajna — In the name of Allah we enter",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-009",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 9,
+    "ageGroup": "4-5",
+    "title": "Morning adhkar (simplified)",
+    "description": "Say key morning remembrances: Ayat al-Kursi, 3x Ikhlas/Falaq/Nas, Subhanallah 33x",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-010",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 10,
+    "ageGroup": "4-5",
+    "title": "Evening adhkar (simplified)",
+    "description": "Say key evening remembrances — same as morning but at Maghrib time",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-011",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 11,
+    "ageGroup": "5-6",
+    "title": "Dua when looking in mirror",
+    "description": "Allahumma kama hassanta khalqi fahsin khuluqi — O Allah as You made my appearance beautiful, make my character beautiful",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-012",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 12,
+    "ageGroup": "5-6",
+    "title": "Dua for parents",
+    "description": "Rabbi irhamhuma kama rabbayani sagheera — My Lord have mercy on them as they raised me when I was small",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-013",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Dua when traveling",
+    "description": "Subhanalladhi sakhkhara lana hadha — Glorified is He who put this at our service",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-dc-014",
+    "subject": "islamic-studies",
+    "strand": "adhkar-duas",
+    "level": 14,
+    "ageGroup": "6-7",
+    "title": "Complete morning/evening adhkar",
+    "description": "Recite full set of morning and evening adhkar from memory",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "is-dc-009"
+    ],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-001",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 1,
+    "ageGroup": "1-2",
+    "title": "Saying please and thank you",
+    "description": "Learn polite words: please, thank you, jazakAllahu khairan",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-002",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Being kind to parents",
+    "description": "Respect mom and dad — help them, speak gently, obey them",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-003",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Saying Assalamu Alaikum",
+    "description": "Greet people with Islamic greeting — to family, friends, strangers",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-004",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Sharing with others",
+    "description": "Learn to share toys, food, and time with siblings and friends",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-005",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Telling the truth",
+    "description": "Honesty is a sign of a believer — Prophet ﷺ was Al-Amin",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-006",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Not interrupting others",
+    "description": "Wait for your turn to speak — raise your hand or wait for a pause",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-007",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "Visiting the sick",
+    "description": "Learn to visit sick family and neighbors — bring comfort and make dua",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-008",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 8,
+    "ageGroup": "4-5",
+    "title": "Feeding others",
+    "description": "Prophet ﷺ said: the best of you is the one who feeds others",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-009",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 9,
+    "ageGroup": "4-5",
+    "title": "Being patient (Sabr)",
+    "description": "When things are hard, say 'Inna lillahi wa inna ilayhi raji'un' — be patient",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-010",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Respecting elders",
+    "description": "Stand for elders, speak respectfully, serve them food first",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-011",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 11,
+    "ageGroup": "5-6",
+    "title": "Animal rights in Islam",
+    "description": "Prophet ﷺ said: whoever kills a sparrow for no reason will be questioned — be kind to animals",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-012",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 12,
+    "ageGroup": "6-7",
+    "title": "Neighbor rights",
+    "description": "Prophet ﷺ said: Jibril kept reminding me about neighbor rights",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "is-ad-013",
+    "subject": "islamic-studies",
+    "strand": "adab-character",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Gratitude (Shukr)",
+    "description": "Thank Allah in every situation — gratitude increases blessings",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": ""
+  },
+  {
+    "id": "en-lr-001",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize letter A",
+    "description": "Identify uppercase letter A by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-001",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase a",
+    "description": "Identify lowercase letter a — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-001"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-001",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter A",
+    "description": "Practice writing uppercase A and lowercase a with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-001"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-002",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize letter B",
+    "description": "Identify uppercase letter B by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-002",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase b",
+    "description": "Identify lowercase letter b — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-002"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-002",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter B",
+    "description": "Practice writing uppercase B and lowercase b with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-002"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-003",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize letter C",
+    "description": "Identify uppercase letter C by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-003",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase c",
+    "description": "Identify lowercase letter c — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-003"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-003",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter C",
+    "description": "Practice writing uppercase C and lowercase c with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-003"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-004",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize letter D",
+    "description": "Identify uppercase letter D by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-004",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase d",
+    "description": "Identify lowercase letter d — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-004"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-004",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter D",
+    "description": "Practice writing uppercase D and lowercase d with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-004"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-005",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Recognize letter E",
+    "description": "Identify uppercase letter E by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-005",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase e",
+    "description": "Identify lowercase letter e — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-005"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-005",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter E",
+    "description": "Practice writing uppercase E and lowercase e with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-005"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-006",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter F",
+    "description": "Identify uppercase letter F by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-006",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase f",
+    "description": "Identify lowercase letter f — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-006"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-006",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter F",
+    "description": "Practice writing uppercase F and lowercase f with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-006"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-007",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter G",
+    "description": "Identify uppercase letter G by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-007",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase g",
+    "description": "Identify lowercase letter g — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-007"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-007",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter G",
+    "description": "Practice writing uppercase G and lowercase g with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-007"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-008",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter H",
+    "description": "Identify uppercase letter H by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-008",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase h",
+    "description": "Identify lowercase letter h — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-008"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-008",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter H",
+    "description": "Practice writing uppercase H and lowercase h with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-008"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-009",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter I",
+    "description": "Identify uppercase letter I by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-009",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase i",
+    "description": "Identify lowercase letter i — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-009"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-009",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter I",
+    "description": "Practice writing uppercase I and lowercase i with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-009"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-010",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter J",
+    "description": "Identify uppercase letter J by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-010",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase j",
+    "description": "Identify lowercase letter j — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-010"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-010",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter J",
+    "description": "Practice writing uppercase J and lowercase j with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-010"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-011",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter K",
+    "description": "Identify uppercase letter K by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-011",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase k",
+    "description": "Identify lowercase letter k — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-011"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-011",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter K",
+    "description": "Practice writing uppercase K and lowercase k with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-011"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-012",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter L",
+    "description": "Identify uppercase letter L by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-012",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase l",
+    "description": "Identify lowercase letter l — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-012"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-012",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter L",
+    "description": "Practice writing uppercase L and lowercase l with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-012"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-013",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Recognize letter M",
+    "description": "Identify uppercase letter M by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-013",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase m",
+    "description": "Identify lowercase letter m — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-013"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-013",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter M",
+    "description": "Practice writing uppercase M and lowercase m with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-013"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-014",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter N",
+    "description": "Identify uppercase letter N by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-014",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase n",
+    "description": "Identify lowercase letter n — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-014"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-014",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter N",
+    "description": "Practice writing uppercase N and lowercase n with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-014"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-015",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter O",
+    "description": "Identify uppercase letter O by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-015",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase o",
+    "description": "Identify lowercase letter o — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-015"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-015",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter O",
+    "description": "Practice writing uppercase O and lowercase o with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-015"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-016",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter P",
+    "description": "Identify uppercase letter P by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-016",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase p",
+    "description": "Identify lowercase letter p — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-016"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-016",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter P",
+    "description": "Practice writing uppercase P and lowercase p with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-016"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-017",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter Q",
+    "description": "Identify uppercase letter Q by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-017",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase q",
+    "description": "Identify lowercase letter q — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-017"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-017",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter Q",
+    "description": "Practice writing uppercase Q and lowercase q with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-017"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-018",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter R",
+    "description": "Identify uppercase letter R by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-018",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase r",
+    "description": "Identify lowercase letter r — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-018"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-018",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter R",
+    "description": "Practice writing uppercase R and lowercase r with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-018"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-019",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter S",
+    "description": "Identify uppercase letter S by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-019",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase s",
+    "description": "Identify lowercase letter s — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-019"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-019",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter S",
+    "description": "Practice writing uppercase S and lowercase s with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-019"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-020",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter T",
+    "description": "Identify uppercase letter T by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-020",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase t",
+    "description": "Identify lowercase letter t — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-020"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-020",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter T",
+    "description": "Practice writing uppercase T and lowercase t with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-020"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-021",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter U",
+    "description": "Identify uppercase letter U by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-021",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase u",
+    "description": "Identify lowercase letter u — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-021"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-021",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter U",
+    "description": "Practice writing uppercase U and lowercase u with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-021"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-022",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter V",
+    "description": "Identify uppercase letter V by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-022",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase v",
+    "description": "Identify lowercase letter v — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-022"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-022",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter V",
+    "description": "Practice writing uppercase V and lowercase v with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-022"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-023",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter W",
+    "description": "Identify uppercase letter W by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-023",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase w",
+    "description": "Identify lowercase letter w — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-023"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-023",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter W",
+    "description": "Practice writing uppercase W and lowercase w with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-023"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-024",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter X",
+    "description": "Identify uppercase letter X by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-024",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase x",
+    "description": "Identify lowercase letter x — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-024"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-024",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter X",
+    "description": "Practice writing uppercase X and lowercase x with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-024"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-025",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter Y",
+    "description": "Identify uppercase letter Y by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-025",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase y",
+    "description": "Identify lowercase letter y — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-025"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-025",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter Y",
+    "description": "Practice writing uppercase Y and lowercase y with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-025"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-lr-026",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Recognize letter Z",
+    "description": "Identify uppercase letter Z by name and sound",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "letter flashcard, sandpaper letter"
+  },
+  {
+    "id": "en-lr-l-026",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Lowercase z",
+    "description": "Identify lowercase letter z — match with uppercase pair",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [
+      "en-lr-026"
+    ],
+    "materials": "letter matching game"
+  },
+  {
+    "id": "en-lw-026",
+    "subject": "english",
+    "strand": "letter-recognition",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Write letter Z",
+    "description": "Practice writing uppercase Z and lowercase z with correct formation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-lr-l-026"
+    ],
+    "materials": "tracing worksheet, whiteboard"
+  },
+  {
+    "id": "en-pa-001",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 1,
+    "ageGroup": "1-2",
+    "title": "Identifying beginning sounds",
+    "description": "Listen and identify the first sound in simple words (cat = /c/)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "picture cards"
+  },
+  {
+    "id": "en-pa-002",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Identifying ending sounds",
+    "description": "Listen and identify the last sound in simple words (dog = /g/)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-pa-001"
+    ],
+    "materials": "picture cards"
+  },
+  {
+    "id": "en-pa-003",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Rhyming words",
+    "description": "Identify words that rhyme: cat/hat, dog/log, sun/run",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "rhyme cards, books"
+  },
+  {
+    "id": "en-pa-004",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 4,
+    "ageGroup": "2-3",
+    "title": "Blending sounds",
+    "description": "Blend individual sounds: c-a-t → cat, d-o-g → dog",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "sound blocks"
+  },
+  {
+    "id": "en-pa-005",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 5,
+    "ageGroup": "2-3",
+    "title": "Segmenting sounds",
+    "description": "Break words into sounds: cat → /c/ /a/ /t/",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "elkonin boxes"
+  },
+  {
+    "id": "en-pa-006",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Middle sounds",
+    "description": "Identify the vowel sound in the middle of CVC words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-pa-004"
+    ],
+    "materials": "sorting mats"
+  },
+  {
+    "id": "en-pa-007",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 7,
+    "ageGroup": "3-4",
+    "title": "Deleting sounds",
+    "description": "Remove a sound: cat without /c/ = at",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "manipulatives"
+  },
+  {
+    "id": "en-pa-008",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 8,
+    "ageGroup": "4-5",
+    "title": "Substituting sounds",
+    "description": "Change a sound: cat → hat (change /c/ to /h/)",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-pa-005"
+    ],
+    "materials": "word cards"
+  },
+  {
+    "id": "en-pa-009",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 9,
+    "ageGroup": "4-5",
+    "title": "Syllable clapping",
+    "description": "Clap out syllables: but-ter-fly, el-e-phant",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "rhythm sticks"
+  },
+  {
+    "id": "en-pa-010",
+    "subject": "english",
+    "strand": "phonemic-awareness",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Compound words",
+    "description": "Combine two words: sun + flower = sunflower, ice + cream = ice cream",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word puzzle cards"
+  },
+  {
+    "id": "en-ph-001",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Short vowel a: cat, hat, mat",
+    "description": "Learn the short /a/ sound in CVC words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "phonics cards"
+  },
+  {
+    "id": "en-ph-002",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Short vowel e: bed, pen, red",
+    "description": "Learn the short /e/ sound in CVC words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "phonics cards"
+  },
+  {
+    "id": "en-ph-003",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 4,
+    "ageGroup": "2-3",
+    "title": "Short vowel i: sit, big, pin",
+    "description": "Learn the short /i/ sound in CVC words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "phonics cards"
+  },
+  {
+    "id": "en-ph-004",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 5,
+    "ageGroup": "2-3",
+    "title": "Short vowel o: hot, dog, pot",
+    "description": "Learn the short /o/ sound in CVC words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "phonics cards"
+  },
+  {
+    "id": "en-ph-005",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 6,
+    "ageGroup": "2-3",
+    "title": "Short vowel u: cup, run, fun",
+    "description": "Learn the short /u/ sound in CVC words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "phonics cards"
+  },
+  {
+    "id": "en-ph-006",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 7,
+    "ageGroup": "3-4",
+    "title": "Consonant blends: bl, cl, fl, gl",
+    "description": "Read and write words with beginning blends: block, clap, flag, glad",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "blend cards"
+  },
+  {
+    "id": "en-ph-007",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 8,
+    "ageGroup": "3-4",
+    "title": "Consonant blends: br, cr, dr, fr",
+    "description": "Read words: brown, crab, drum, frog",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-ph-007"
+    ],
+    "materials": "blend cards"
+  },
+  {
+    "id": "en-ph-008",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 9,
+    "ageGroup": "3-4",
+    "title": "Consonant blends: st, sp, sk, sm",
+    "description": "Read words: stop, spin, skip, smile",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "blend cards"
+  },
+  {
+    "id": "en-ph-009",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 10,
+    "ageGroup": "3-4",
+    "title": "Digraphs: sh, ch, th",
+    "description": "Learn special sound pairs: ship, chat, this",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "digraph posters"
+  },
+  {
+    "id": "en-ph-010",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 11,
+    "ageGroup": "3-4",
+    "title": "Digraphs: wh, ph, ng, nk",
+    "description": "Learn: when, phone, ring, sink",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "digraph posters"
+  },
+  {
+    "id": "en-ph-011",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 12,
+    "ageGroup": "3-4",
+    "title": "Long vowel a: cake, make, lake",
+    "description": "Learn the magic-e rule: silent e makes vowel long",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word cards"
+  },
+  {
+    "id": "en-ph-012",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 13,
+    "ageGroup": "4-5",
+    "title": "Long vowel i: bike, kite, time",
+    "description": "Magic-e with i: i_e makes long /i/ sound",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word cards"
+  },
+  {
+    "id": "en-ph-013",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 14,
+    "ageGroup": "4-5",
+    "title": "Long vowel o: bone, home, rose",
+    "description": "Magic-e with o: o_e makes long /o/ sound",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word cards"
+  },
+  {
+    "id": "en-ph-014",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 15,
+    "ageGroup": "4-5",
+    "title": "Long vowel u: cute, tube, fuse",
+    "description": "Magic-e with u: u_e makes long /u/ sound",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word cards"
+  },
+  {
+    "id": "en-ph-015",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 16,
+    "ageGroup": "4-5",
+    "title": "Vowel teams: ai, ay (long a)",
+    "description": "Read: rain, play, train, day",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "vowel team chart"
+  },
+  {
+    "id": "en-ph-016",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 17,
+    "ageGroup": "4-5",
+    "title": "Vowel teams: ea, ee (long e)",
+    "description": "Read: tea, tree, read, see",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "vowel team chart"
+  },
+  {
+    "id": "en-ph-017",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 18,
+    "ageGroup": "4-5",
+    "title": "Vowel teams: oa, oe (long o)",
+    "description": "Read: boat, coat, toe, hoe",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "vowel team chart"
+  },
+  {
+    "id": "en-ph-018",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 19,
+    "ageGroup": "5-6",
+    "title": "R-controlled vowels: ar, er, ir, or, ur",
+    "description": "Learn: car, her, bird, for, burn",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "r-controlled poster"
+  },
+  {
+    "id": "en-ph-019",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 20,
+    "ageGroup": "5-6",
+    "title": "Diphthongs: oi, oy, ou, ow",
+    "description": "Learn: coin, boy, out, cow",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "diphthong chart"
+  },
+  {
+    "id": "en-ph-020",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 21,
+    "ageGroup": "5-6",
+    "title": "Silent letters: kn, wr, gn, mb",
+    "description": "Learn: know, write, gnaw, lamb",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "silent letter cards"
+  },
+  {
+    "id": "en-ph-021",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 22,
+    "ageGroup": "5-6",
+    "title": "Soft c and soft g",
+    "description": "c makes /s/ before e,i,y (city, center); g makes /j/ (gem, gym)",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "sorting activity"
+  },
+  {
+    "id": "en-ph-022",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 23,
+    "ageGroup": "6-7",
+    "title": "Multisyllable decoding",
+    "description": "Break long words into syllables to read: but-ter-flies, el-e-phant",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "syllable cards"
+  },
+  {
+    "id": "en-ph-023",
+    "subject": "english",
+    "strand": "phonics",
+    "level": 24,
+    "ageGroup": "6-7",
+    "title": "Irregular/sight word reading",
+    "description": "Read common irregular words: the, said, was, would, could, should",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "sight word list"
+  },
+  {
+    "id": "en-sw-001",
+    "subject": "english",
+    "strand": "sight-words",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Pre-primer sight words (10)",
+    "description": "the, a, I, is, it, to, and, in, we, see",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "flashcards, word wall"
+  },
+  {
+    "id": "en-sw-002",
+    "subject": "english",
+    "strand": "sight-words",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Primer sight words (20)",
+    "description": "can, you, he, she, my, like, go, do, at, he, was, for, on, are, as, with, his, they, I, said",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-sw-001"
+    ],
+    "materials": "sight word bingo"
+  },
+  {
+    "id": "en-sw-003",
+    "subject": "english",
+    "strand": "sight-words",
+    "level": 4,
+    "ageGroup": "4-5",
+    "title": "First grade sight words (20)",
+    "description": "have, come, some, what, when, where, which, who, how, many, each, every, little, much, very, its, our, their, would, could",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-sw-002"
+    ],
+    "materials": "sight word games"
+  },
+  {
+    "id": "en-sw-004",
+    "subject": "english",
+    "strand": "sight-words",
+    "level": 5,
+    "ageGroup": "5-6",
+    "title": "Second grade sight words (20)",
+    "description": "been, before, after, again, also, always, because, been, both, does, don't, every, first, goes, great, just, know, laugh, never, only",
+    "category": "practice",
+    "estimatedSessions": 3,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-sw-003"
+    ],
+    "materials": "word journal"
+  },
+  {
+    "id": "en-rd-001",
+    "subject": "english",
+    "strand": "reading",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Picture reading",
+    "description": "Look at pictures to tell what a story is about",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "picture books"
+  },
+  {
+    "id": "en-rd-002",
+    "subject": "english",
+    "strand": "reading",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Reading CVC words independently",
+    "description": "Read simple 3-letter words: cat, dog, pen, sun, bus",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "decodable books"
+  },
+  {
+    "id": "en-rd-003",
+    "subject": "english",
+    "strand": "reading",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Reading simple sentences",
+    "description": "Read 3-4 word sentences: 'The cat sat.' 'I can run.'",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [
+      "en-rd-002"
+    ],
+    "materials": "guided readers"
+  },
+  {
+    "id": "en-rd-004",
+    "subject": "english",
+    "strand": "reading",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Story elements",
+    "description": "Identify characters, setting, beginning, middle, end in stories",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "story maps"
+  },
+  {
+    "id": "en-rd-005",
+    "subject": "english",
+    "strand": "reading",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Retelling stories",
+    "description": "Retell a story in correct sequence using transition words",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "story sequencing cards"
+  },
+  {
+    "id": "en-rd-006",
+    "subject": "english",
+    "strand": "reading",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "Making predictions",
+    "description": "Look at cover and title, predict what the book is about before reading",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "picture books"
+  },
+  {
+    "id": "en-rd-007",
+    "subject": "english",
+    "strand": "reading",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Answering who, what, where, when, why",
+    "description": "Answer comprehension questions after reading a passage",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "comprehension worksheets"
+  },
+  {
+    "id": "en-rd-008",
+    "subject": "english",
+    "strand": "reading",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Main idea and details",
+    "description": "Identify the main idea and supporting details in a text",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "graphic organizers"
+  },
+  {
+    "id": "en-rd-009",
+    "subject": "english",
+    "strand": "reading",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Cause and effect",
+    "description": "Identify cause and effect relationships in stories",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "cause-effect charts"
+  },
+  {
+    "id": "en-rd-010",
+    "subject": "english",
+    "strand": "reading",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Reading short chapters",
+    "description": "Read short chapter books independently with comprehension",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "chapter books"
+  },
+  {
+    "id": "en-rd-011",
+    "subject": "english",
+    "strand": "reading",
+    "level": 12,
+    "ageGroup": "6-7",
+    "title": "Author's purpose",
+    "description": "Understand why an author writes: to entertain, inform, or persuade",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "text examples"
+  },
+  {
+    "id": "en-rd-012",
+    "subject": "english",
+    "strand": "reading",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Compare and contrast",
+    "description": "Compare characters, settings, or events across two stories",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "venn diagram"
+  },
+  {
+    "id": "en-wr-001",
+    "subject": "english",
+    "strand": "writing",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Scribbling with crayons",
+    "description": "Hold crayon and make marks on paper — early writing exposure",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "chunky crayons, paper"
+  },
+  {
+    "id": "en-wr-002",
+    "subject": "english",
+    "strand": "writing",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Tracing vertical and horizontal lines",
+    "description": "Practice drawing straight lines (top to bottom, left to right)",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "tracing worksheets"
+  },
+  {
+    "id": "en-wr-003",
+    "subject": "english",
+    "strand": "writing",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Tracing shapes",
+    "description": "Trace circles, squares, triangles, and zigzag lines",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "tracing workbook"
+  },
+  {
+    "id": "en-wr-004",
+    "subject": "english",
+    "strand": "writing",
+    "level": 4,
+    "ageGroup": "2-3",
+    "title": "Copying simple shapes",
+    "description": "Copy: circle, cross, square, triangle without tracing",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [
+      "en-wr-003"
+    ],
+    "materials": "lined paper"
+  },
+  {
+    "id": "en-wr-005",
+    "subject": "english",
+    "strand": "writing",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Writing own name",
+    "description": "Write first name with correct letter formation and size",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "name tracing card"
+  },
+  {
+    "id": "en-wr-006",
+    "subject": "english",
+    "strand": "writing",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Labeling pictures",
+    "description": "Write labels for pictures: cat, dog, sun, house",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "picture dictionary"
+  },
+  {
+    "id": "en-wr-007",
+    "subject": "english",
+    "strand": "writing",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "Writing simple sentences",
+    "description": "Write 3-5 word sentences independently: 'I like cats.'",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "sentence starters"
+  },
+  {
+    "id": "en-wr-008",
+    "subject": "english",
+    "strand": "writing",
+    "level": 8,
+    "ageGroup": "4-5",
+    "title": "Capital letters and periods",
+    "description": "Use capital at start and period at end of every sentence",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "writing checklist"
+  },
+  {
+    "id": "en-wr-009",
+    "subject": "english",
+    "strand": "writing",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Writing a paragraph",
+    "description": "Write 3-5 sentences about a topic with a beginning, middle, end",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "graphic organizer"
+  },
+  {
+    "id": "en-wr-010",
+    "subject": "english",
+    "strand": "writing",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Question marks and exclamation marks",
+    "description": "Use ? for questions and ! for excitement — learn when to use each",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "punctuation poster"
+  },
+  {
+    "id": "en-wr-011",
+    "subject": "english",
+    "strand": "writing",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Creative writing",
+    "description": "Write short stories, journal entries, and descriptive paragraphs",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "writing journal"
+  },
+  {
+    "id": "en-wr-012",
+    "subject": "english",
+    "strand": "writing",
+    "level": 12,
+    "ageGroup": "6-7",
+    "title": "Letter writing",
+    "description": "Write a friendly letter: greeting, body, closing, signature",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "letter template"
+  },
+  {
+    "id": "en-wr-013",
+    "subject": "english",
+    "strand": "writing",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Writing complete sentences",
+    "description": "Use subject + verb + object; avoid fragments and run-ons",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "sentence building kit"
+  },
+  {
+    "id": "en-gr-001",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Naming words (nouns)",
+    "description": "Learn that naming words are people, places, or things",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "noun cards"
+  },
+  {
+    "id": "en-gr-002",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Action words (verbs)",
+    "description": "Learn that verbs are doing words: run, jump, eat, sleep",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "action cards"
+  },
+  {
+    "id": "en-gr-003",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Describing words (adjectives)",
+    "description": "Learn that adjectives describe nouns: big dog, red ball",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "picture cards"
+  },
+  {
+    "id": "en-gr-004",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Singular and plural nouns",
+    "description": "cat → cats, baby → babies, foot → feet — rules for making plurals",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "noun sorting game"
+  },
+  {
+    "id": "en-gr-005",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "A and an articles",
+    "description": "Use 'a' before consonant sounds, 'an' before vowel sounds",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "worksheet"
+  },
+  {
+    "id": "en-gr-006",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 7,
+    "ageGroup": "5-6",
+    "title": "Pronouns: I, you, he, she, it, we, they",
+    "description": "Replace nouns with pronouns to avoid repetition",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "pronoun cards"
+  },
+  {
+    "id": "en-gr-007",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Sentence parts: subject and predicate",
+    "description": "Every sentence has who/what (subject) and does what (predicate)",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "sentence strips"
+  },
+  {
+    "id": "en-gr-008",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 9,
+    "ageGroup": "6-7",
+    "title": "Present, past, and future tense",
+    "description": "walk/walked/will walk — learn to change verb tenses",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "tense timeline"
+  },
+  {
+    "id": "en-gr-009",
+    "subject": "english",
+    "strand": "grammar",
+    "level": 10,
+    "ageGroup": "6-7",
+    "title": "Conjunctions: and, but, or, so",
+    "description": "Join two sentences: 'I like cats and dogs.' 'I wanted to go but it rained.'",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "conjunction cards"
+  },
+  {
+    "id": "en-lit-001",
+    "subject": "english",
+    "strand": "literature",
+    "level": 1,
+    "ageGroup": "0-1",
+    "title": "Board books and touch-and-feel",
+    "description": "Explore sturdy books with textures — develop love of books",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "board books"
+  },
+  {
+    "id": "en-lit-002",
+    "subject": "english",
+    "strand": "literature",
+    "level": 2,
+    "ageGroup": "1-2",
+    "title": "Read-aloud time",
+    "description": "Listen to short stories being read aloud — develop attention span",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "picture books"
+  },
+  {
+    "id": "en-lit-003",
+    "subject": "english",
+    "strand": "literature",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Fairy tales and fables",
+    "description": "Classic tales: Three Little Pigs, Goldilocks, Lion and Mouse",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "fairy tale collection"
+  },
+  {
+    "id": "en-lit-004",
+    "subject": "english",
+    "strand": "literature",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Identifying story characters",
+    "description": "Name the main characters and what they look like",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "story books"
+  },
+  {
+    "id": "en-lit-005",
+    "subject": "english",
+    "strand": "literature",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Poetry: nursery rhymes",
+    "description": "Recite and memorize nursery rhymes: Twinkle Twinkle, Baa Baa Black Sheep",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "poetry book"
+  },
+  {
+    "id": "en-lit-006",
+    "subject": "english",
+    "strand": "literature",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Folk tales from different cultures",
+    "description": "Read stories from African, Asian, Middle Eastern, and European traditions",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "multicultural story collection"
+  },
+  {
+    "id": "en-lit-007",
+    "subject": "english",
+    "strand": "literature",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "Identifying the moral/lesson",
+    "description": "After reading, identify what the story teaches us",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "discussion prompts"
+  },
+  {
+    "id": "en-lit-008",
+    "subject": "english",
+    "strand": "literature",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Fiction vs non-fiction",
+    "description": "Distinguish between make-believe stories and factual books",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "book sorting"
+  },
+  {
+    "id": "en-lit-009",
+    "subject": "english",
+    "strand": "literature",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Character feelings and motivations",
+    "description": "Discuss why characters did what they did and how they felt",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "feeling charts"
+  },
+  {
+    "id": "en-lit-010",
+    "subject": "english",
+    "strand": "literature",
+    "level": 10,
+    "ageGroup": "6-7",
+    "title": "Chapter book reading",
+    "description": "Read and discuss simple chapter books independently",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "age-appropriate chapter books"
+  },
+  {
+    "id": "en-lit-011",
+    "subject": "english",
+    "strand": "literature",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Writing book reports",
+    "description": "Write a short summary: title, author, characters, favorite part, recommendation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "book report template"
+  },
+  {
+    "id": "m-ns-001",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 0,
+    "ageGroup": "0-1",
+    "title": "Counting objects 1-5",
+    "description": "Touch and count fingers, toes, toys — one-to-one correspondence",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "counting toys, fingers"
+  },
+  {
+    "id": "m-ns-002",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 1,
+    "ageGroup": "1-2",
+    "title": "Rote counting 1-10",
+    "description": "Sing counting songs and rote count to 10",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "number songs, rhymes"
+  },
+  {
+    "id": "m-ns-003",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Recognizing numerals 1-5",
+    "description": "Match numeral to quantity: see '3' and show 3 fingers",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "number cards, manipulatives"
+  },
+  {
+    "id": "m-ns-004",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Rote counting 1-20",
+    "description": "Count to 20 with accuracy",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "number line"
+  },
+  {
+    "id": "m-ns-005",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Recognizing numerals 1-10",
+    "description": "Identify all digits 0-9 and order them",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "number puzzle"
+  },
+  {
+    "id": "m-ns-006",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Counting objects 1-20",
+    "description": "Count groups of objects up to 20",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "counting bears, cubes"
+  },
+  {
+    "id": "m-ns-007",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Comparing numbers",
+    "description": "Which is more? Which is less? Greater than, less than, equal",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "comparing cards"
+  },
+  {
+    "id": "m-ns-008",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 7,
+    "ageGroup": "3-4",
+    "title": "Number order",
+    "description": "Put numbers 1-20 in order",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "number cards"
+  },
+  {
+    "id": "m-ns-009",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 8,
+    "ageGroup": "4-5",
+    "title": "Skip counting by 2s",
+    "description": "Count: 2, 4, 6, 8, 10... using pairs",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "counting by 2s chart"
+  },
+  {
+    "id": "m-ns-010",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 9,
+    "ageGroup": "4-5",
+    "title": "Skip counting by 5s",
+    "description": "Count: 5, 10, 15, 20... using hands",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "hundreds chart"
+  },
+  {
+    "id": "m-ns-011",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 10,
+    "ageGroup": "4-5",
+    "title": "Skip counting by 10s",
+    "description": "Count: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "base-10 blocks"
+  },
+  {
+    "id": "m-ns-012",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 11,
+    "ageGroup": "4-5",
+    "title": "Recognizing numerals 1-20",
+    "description": "Read and write all numerals 1-20",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "number writing worksheet"
+  },
+  {
+    "id": "m-ns-013",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 12,
+    "ageGroup": "5-6",
+    "title": "Counting to 100",
+    "description": "Count accurately to 100 by 1s",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "hundreds chart"
+  },
+  {
+    "id": "m-ns-014",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 13,
+    "ageGroup": "5-6",
+    "title": "Place value: tens and ones",
+    "description": "Understand that 23 = 2 tens + 3 ones using base-10 blocks",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "base-10 blocks"
+  },
+  {
+    "id": "m-ns-015",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 14,
+    "ageGroup": "5-6",
+    "title": "Reading and writing numbers to 100",
+    "description": "Read numerals 0-100 and write them from dictation",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "number cards"
+  },
+  {
+    "id": "m-ns-016",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 15,
+    "ageGroup": "5-6",
+    "title": "Comparing numbers to 100",
+    "description": "Use >, <, = to compare two-digit numbers",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "comparison symbols"
+  },
+  {
+    "id": "m-ns-017",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 16,
+    "ageGroup": "6-7",
+    "title": "Place value: hundreds, tens, ones",
+    "description": "Understand 3-digit numbers: 456 = 4 hundreds + 5 tens + 6 ones",
+    "category": "mastery",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "base-10 blocks"
+  },
+  {
+    "id": "m-ns-018",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 17,
+    "ageGroup": "6-7",
+    "title": "Counting to 1000",
+    "description": "Count by 1s, 10s, and 100s to 1000",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "thousands chart"
+  },
+  {
+    "id": "m-ns-019",
+    "subject": "mathematics",
+    "strand": "number-sense",
+    "level": 18,
+    "ageGroup": "6-7",
+    "title": "Number patterns",
+    "description": "Identify and extend number patterns: +2, +5, +10 sequences",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "pattern blocks"
+  },
+  {
+    "id": "m-op-001",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Adding 1 to a number",
+    "description": "Learn that adding 1 gives the next number: 3+1=4",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "number line, counters"
+  },
+  {
+    "id": "m-op-002",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Combining two groups",
+    "description": "Put 2 objects and 3 objects together = 5 total",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "counting bears"
+  },
+  {
+    "id": "m-op-003",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Addition within 10",
+    "description": "Add two numbers whose sum is ≤10: 3+4=7",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on",
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "ten frame"
+  },
+  {
+    "id": "m-op-004",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Subtraction within 10",
+    "description": "Take away objects: 7-3=4 — understand removal",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "counters, subtraction cards"
+  },
+  {
+    "id": "m-op-005",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 7,
+    "ageGroup": "4-5",
+    "title": "Addition within 20 (no regrouping)",
+    "description": "Add single-digit numbers: 8+5=13",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "number line"
+  },
+  {
+    "id": "m-op-006",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Addition within 20 (with regrouping)",
+    "description": "Add with carrying: 9+6=15, 8+7=15",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "base-10 blocks"
+  },
+  {
+    "id": "m-op-007",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Subtraction within 20",
+    "description": "Subtract single-digit from teen: 15-7=8",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "ten frames"
+  },
+  {
+    "id": "m-op-008",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 10,
+    "ageGroup": "5-6",
+    "title": "Understanding equals sign",
+    "description": "The = sign means 'the same as' — both sides are equal",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "balance scale"
+  },
+  {
+    "id": "m-op-009",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Addition within 100",
+    "description": "Add two-digit numbers with regrouping: 34+27=61",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "base-10 blocks"
+  },
+  {
+    "id": "m-op-010",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 12,
+    "ageGroup": "6-7",
+    "title": "Subtraction within 100",
+    "description": "Subtract two-digit numbers with regrouping: 52-18=34",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "base-10 blocks"
+  },
+  {
+    "id": "m-op-011",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Word problems (addition)",
+    "description": "Solve word problems: 'Ali had 5 apples and got 3 more. How many?",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word problem cards"
+  },
+  {
+    "id": "m-op-012",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 14,
+    "ageGroup": "6-7",
+    "title": "Word problems (subtraction)",
+    "description": "Solve: 'Maryam had 12 cookies and ate 4. How many left?",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "word problem cards"
+  },
+  {
+    "id": "m-op-013",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 15,
+    "ageGroup": "5-6",
+    "title": "Patterns: growing patterns",
+    "description": "Extend growing patterns: 1, 2, 4, 7, 11 (+1, +2, +3, +4)",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "pattern strips"
+  },
+  {
+    "id": "m-op-014",
+    "subject": "mathematics",
+    "strand": "operations",
+    "level": 16,
+    "ageGroup": "5-6",
+    "title": "Patterns: repeating patterns",
+    "description": "Identify and create AB, ABB, ABC, AABBCC patterns",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "pattern blocks, beads"
+  },
+  {
+    "id": "m-geo-001",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Circles",
+    "description": "Identify and describe a circle — round, no corners",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "shape blocks"
+  },
+  {
+    "id": "m-geo-002",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 3,
+    "ageGroup": "2-3",
+    "title": "Squares",
+    "description": "Identify and describe a square — 4 equal sides, 4 corners",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "shape blocks"
+  },
+  {
+    "id": "m-geo-003",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 4,
+    "ageGroup": "2-3",
+    "title": "Triangles",
+    "description": "Identify and describe a triangle — 3 sides, 3 corners",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "shape blocks"
+  },
+  {
+    "id": "m-geo-004",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 5,
+    "ageGroup": "3-4",
+    "title": "Rectangles",
+    "description": "Identify and describe a rectangle — 4 sides, 2 long and 2 short",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "shape blocks"
+  },
+  {
+    "id": "m-geo-005",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 6,
+    "ageGroup": "3-4",
+    "title": "Hexagons and ovals",
+    "description": "Identify hexagon (6 sides) and oval (elongated circle)",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "pattern blocks"
+  },
+  {
+    "id": "m-geo-006",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 7,
+    "ageGroup": "3-4",
+    "title": "Sorting by shape",
+    "description": "Sort objects into groups by their shape",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "mixed shape collection"
+  },
+  {
+    "id": "m-geo-007",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 8,
+    "ageGroup": "4-5",
+    "title": "3D shapes: cube, sphere, cone, cylinder",
+    "description": "Identify basic 3D shapes and their flat surfaces",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "3D shape models"
+  },
+  {
+    "id": "m-geo-008",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 9,
+    "ageGroup": "4-5",
+    "title": "Position words",
+    "description": "Above, below, beside, between, in front of, behind",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "toy figures"
+  },
+  {
+    "id": "m-geo-009",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 10,
+    "ageGroup": "4-5",
+    "title": "Symmetry",
+    "description": "Fold a shape in half — are both sides the same? Mirror line",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "symmetry mirrors"
+  },
+  {
+    "id": "m-geo-010",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 11,
+    "ageGroup": "5-6",
+    "title": "Halves and fourths (fractions intro)",
+    "description": "Fold paper in half and fourths — understand equal parts",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "paper, scissors"
+  },
+  {
+    "id": "m-geo-011",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 12,
+    "ageGroup": "5-6",
+    "title": "Composing shapes",
+    "description": "Combine two shapes to make a new shape: 2 triangles = square",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "pattern blocks"
+  },
+  {
+    "id": "m-geo-012",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Identifying angles",
+    "description": "Right angle (corner), acute (small), obtuse (big)",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "angle cards, protractor"
+  },
+  {
+    "id": "m-geo-013",
+    "subject": "mathematics",
+    "strand": "geometry",
+    "level": 14,
+    "ageGroup": "6-7",
+    "title": "Area introduction",
+    "description": "Cover a shape with unit squares — how many fit inside?",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "grid paper, tiles"
+  },
+  {
+    "id": "m-meas-001",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Big and small",
+    "description": "Compare object sizes: which is bigger, which is smaller?",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "different sized objects"
+  },
+  {
+    "id": "m-meas-002",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Long and short",
+    "description": "Compare lengths: which is longer, which is shorter?",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "string, blocks"
+  },
+  {
+    "id": "m-meas-003",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Heavy and light",
+    "description": "Compare weight using a balance scale",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "balance scale"
+  },
+  {
+    "id": "m-meas-004",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Measuring with non-standard units",
+    "description": "Measure length using paper clips, blocks, hand spans",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "paper clips, blocks"
+  },
+  {
+    "id": "m-meas-005",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Tall and short",
+    "description": "Compare heights — who is tallest?",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "measuring tape"
+  },
+  {
+    "id": "m-meas-006",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 7,
+    "ageGroup": "5-6",
+    "title": "Inches and centimeters",
+    "description": "Introduction to standard units of length",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "ruler, measuring tape"
+  },
+  {
+    "id": "m-meas-007",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 8,
+    "ageGroup": "5-6",
+    "title": "Pounds and kilograms",
+    "description": "Introduction to weight units",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "balance scale, weights"
+  },
+  {
+    "id": "m-meas-008",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 9,
+    "ageGroup": "5-6",
+    "title": "Cups and liters",
+    "description": "Introduction to volume/capacity",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "measuring cups, water"
+  },
+  {
+    "id": "m-meas-009",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 10,
+    "ageGroup": "6-7",
+    "title": "Reading a ruler (inches)",
+    "description": "Measure objects to the nearest inch using a ruler",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "ruler"
+  },
+  {
+    "id": "m-meas-010",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 11,
+    "ageGroup": "6-7",
+    "title": "Reading a ruler (centimeters)",
+    "description": "Measure objects to the nearest centimeter",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "metric ruler"
+  },
+  {
+    "id": "m-meas-011",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 12,
+    "ageGroup": "5-6",
+    "title": "Graphing: tally marks",
+    "description": "Record data using tally marks",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "tally chart"
+  },
+  {
+    "id": "m-meas-012",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 13,
+    "ageGroup": "6-7",
+    "title": "Bar graphs",
+    "description": "Read and create simple bar graphs from data",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "grid paper, stickers"
+  },
+  {
+    "id": "m-meas-013",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 14,
+    "ageGroup": "5-6",
+    "title": "Calendar skills",
+    "description": "Read a calendar: days of week, months, today's date",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "classroom calendar"
+  },
+  {
+    "id": "m-meas-014",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 15,
+    "ageGroup": "5-6",
+    "title": "Time: o'clock",
+    "description": "Tell time to the hour on analog clock",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "teaching clock"
+  },
+  {
+    "id": "m-meas-015",
+    "subject": "mathematics",
+    "strand": "measurement",
+    "level": 16,
+    "ageGroup": "6-7",
+    "title": "Time: half past",
+    "description": "Tell time to the half hour: half past 3, half past 7",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "teaching clock"
+  },
+  {
+    "id": "m-money-001",
+    "subject": "mathematics",
+    "strand": "money-time",
+    "level": 4,
+    "ageGroup": "4-5",
+    "title": "Coin recognition: penny, nickel, dime, quarter",
+    "description": "Identify US coins by appearance and value",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "real coins, coin chart"
+  },
+  {
+    "id": "m-money-002",
+    "subject": "mathematics",
+    "strand": "money-time",
+    "level": 5,
+    "ageGroup": "5-6",
+    "title": "Counting coins",
+    "description": "Count pennies, then add nickels, dimes: total value",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "coin sets"
+  },
+  {
+    "id": "m-money-003",
+    "subject": "mathematics",
+    "strand": "money-time",
+    "level": 5,
+    "ageGroup": "5-6",
+    "title": "Bill recognition: $1, $5, $10",
+    "description": "Identify paper money and their values",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "play money"
+  },
+  {
+    "id": "m-money-004",
+    "subject": "mathematics",
+    "strand": "money-time",
+    "level": 6,
+    "ageGroup": "6-7",
+    "title": "Making change",
+    "description": "Calculate change from simple purchases",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "play money, cash register"
+  },
+  {
+    "id": "m-money-005",
+    "subject": "mathematics",
+    "strand": "money-time",
+    "level": 6,
+    "ageGroup": "6-7",
+    "title": "Adding money amounts",
+    "description": "Add different coins and bills to make a total",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "coin sorting tray"
+  },
+  {
+    "id": "m-money-006",
+    "subject": "mathematics",
+    "strand": "money-time",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Coins of Saudi Arabia ( Riyal)",
+    "description": "Learn about the most common Saudi coins",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual"
+    ],
+    "prerequisites": [],
+    "materials": "real Saudi coins"
+  },
+  {
+    "id": "m-pat-001",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 2,
+    "ageGroup": "2-3",
+    "title": "Color patterns: red, blue, red, blue",
+    "description": "Continue simple alternating color patterns",
+    "category": "introduction",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "colored beads"
+  },
+  {
+    "id": "m-pat-002",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 3,
+    "ageGroup": "3-4",
+    "title": "Size patterns: big, small, big, small",
+    "description": "Continue patterns based on size",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "different sized objects"
+  },
+  {
+    "id": "m-pat-003",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 4,
+    "ageGroup": "3-4",
+    "title": "Shape patterns",
+    "description": "Continue patterns with different shapes",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "visual",
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "pattern blocks"
+  },
+  {
+    "id": "m-pat-004",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 5,
+    "ageGroup": "4-5",
+    "title": "Growing patterns",
+    "description": "1, 2, 3, 4... 2, 4, 6, 8... patterns that increase",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "number charts"
+  },
+  {
+    "id": "m-pat-005",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 6,
+    "ageGroup": "4-5",
+    "title": "Sorting and classifying",
+    "description": "Sort objects by multiple attributes: color AND shape",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "hands-on"
+    ],
+    "prerequisites": [],
+    "materials": "attribute blocks"
+  },
+  {
+    "id": "m-pat-006",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 7,
+    "ageGroup": "5-6",
+    "title": "Logic puzzles",
+    "description": "Simple logic: if this, then that — process of elimination",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "logic puzzle cards"
+  },
+  {
+    "id": "m-pat-007",
+    "subject": "mathematics",
+    "strand": "patterns",
+    "level": 8,
+    "ageGroup": "6-7",
+    "title": "Number patterns and rules",
+    "description": "Find the rule in a number pattern and extend it",
+    "category": "practice",
+    "estimatedSessions": 2,
+    "tags": [
+      "verbal"
+    ],
+    "prerequisites": [],
+    "materials": "pattern worksheets"
+  }
+]

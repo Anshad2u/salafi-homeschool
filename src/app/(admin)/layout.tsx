@@ -29,11 +29,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   };
 
   const handleNavigate = (route: string) => {
-    router.push("/admin/" + route);
+    router.push("/" + route);
   };
 
-  // Extract active route from pathname
-  const activeRoute = pathname.replace("/admin/", "").replace("/admin", "dashboard") || "dashboard";
+  // Extract active route from pathname (route groups don't appear in URL)
+  const activeRoute = pathname.replace("/", "").split("/")[0] || "dashboard";
 
   if (status === "loading" || !mounted) {
     return (

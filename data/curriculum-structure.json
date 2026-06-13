@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Salafi Homeschool Comprehensive Curriculum",
+    "version": "1.0.0",
+    "description": "Complete birth-to-Grade-1 homeschool curriculum covering secular academics, Islamic education, creative arts, physical development, and life skills. Designed for daily lesson planning across 365 days per year.",
+    "ageGroups": {
+      "0": { "label": "Infant", "ageRange": "0-1", "months": "0-12" },
+      "1": { "label": "Toddler", "ageRange": "1-2", "months": "12-24" },
+      "2": { "label": "Early Preschool", "ageRange": "2-3", "months": "24-36" },
+      "3": { "label": "Preschool", "ageRange": "3-4", "months": "36-48" },
+      "4": { "label": "Pre-Kindergarten", "ageRange": "4-5", "months": "48-60" },
+      "5": { "label": "Kindergarten", "ageRange": "5-6", "months": "60-72" },
+      "6": { "label": "Grade 1", "ageRange": "6-7", "months": "72-84" }
+    },
+    "dailyTimeBudget": {
+      "0": { "totalMinutes": 15, "breaks": "Integrated into play" },
+      "1": { "totalMinutes": 30, "breaks": "5 min every 10 min" },
+      "2": { "totalMinutes": 60, "breaks": "5 min every 15 min" },
+      "3": { "totalMinutes": 90, "breaks": "10 min every 20 min" },
+      "4": { "totalMinutes": 120, "breaks": "10 min every 25 min" },
+      "5": { "totalMinutes": 180, "breaks": "15 min every 30 min" },
+      "6": { "totalMinutes": 240, "breaks": "15 min every 30 min" }
+    },
+    "subjectsOrder": [
+      "quran",
+      "islamic-studies",
+      "arabic",
+      "english",
+      "mathematics",
+      "science",
+      "social-studies",
+      "art-music",
+      "physical-education",
+      "life-skills"
+    ]
+  },
+  "topicFormat": {
+    "id": "string — format: {subject-slug}-{strand-slug}-{level}-{sequence}",
+    "subject": "string — parent subject slug",
+    "strand": "string — strand name",
+    "level": "number — 0-6 corresponding to age group",
+    "ageGroup": "string — age range like '2-3'",
+    "title": "string — clear, actionable topic title",
+    "description": "string — 1-2 sentence teaching objective",
+    "category": "string — 'introduction' | 'practice' | 'mastery' | 'extension' | 'milestone'",
+    "estimatedSessions": "number — how many daily sessions this topic typically needs (1-5)",
+    "tags": "string[] — e.g. ['hands-on', 'verbal', 'visual', 'assessment']",
+    "prerequisites": "string[] — topic IDs that should come before this",
+    "materials": "string — optional: suggested materials/activities"
+  },
+  "subjects": [
+    {
+      "id": "quran",
+      "name": "Quran",
+      "icon": "📖",
+      "color": "#2E7D32",
+      "strands": [
+        { "id": "arabic-letters", "name": "Arabic Letter Recognition", "description": "Learning to identify and pronounce Arabic/Hijaiyah letters" },
+        { "id": "quran-recitation", "name": "Quran Recitation (Tilawah)", "description": "Reading and reciting Quranic text with proper pronunciation" },
+        { "id": "quran-memorization", "name": "Quran Memorization (Hifz)", "description": "Committing selected surahs and ayahs to memory" },
+        { "id": "tajweed", "name": "Tajweed Basics", "description": "Rules of Quranic recitation and pronunciation" },
+        { "id": "quran-understanding", "name": "Quran Understanding", "description": "Age-appropriate understanding of Quranic meanings and lessons" },
+        { "id": "quran-stories", "name": "Quran Stories & Lessons", "description": "Stories from Quran and their moral lessons" }
+      ]
+    },
+    {
+      "id": "islamic-studies",
+      "name": "Islamic Studies",
+      "icon": "🕌",
+      "color": "#1565C0",
+      "strands": [
+        { "id": "aqeedah", "name": "Aqeedah (Islamic Belief)", "description": "Core beliefs: Tawheed, angels, books, prophets, Day of Judgment" },
+        { "id": "seerah", "name": "Seerah (Life of Prophet Muhammad ﷺ)", "description": "Stories and lessons from the Prophet's life" },
+        { "id": "prophets-stories", "name": "Stories of the Prophets", "description": "Lives and lessons of all prophets mentioned in Quran" },
+        { "id": "fiqh", "name": "Fiqh (Worship & Practice)", "description": "Practical worship: salah, fasting, zakat, hajj basics" },
+        { "id": "adhkar-duas", "name": "Adhkar & Duas", "description": "Daily remembrances and supplications" },
+        { "id": "adab-character", "name": "Islamic Manners & Character", "description": "Islamic etiquette, honesty, kindness, respect" },
+        { "id": "islamic-history", "name": "Islamic History & Civilization", "description": "Key events, companions, and Islamic heritage" }
+      ]
+    },
+    {
+      "id": "arabic",
+      "name": "Arabic Language",
+      "icon": "🌙",
+      "color": "#00897B",
+      "strands": [
+        { "id": "arabic-alphabet", "name": "Arabic Alphabet & Writing", "description": "Learning Arabic letters in all forms and writing them" },
+        { "id": "arabic-vocabulary", "name": "Arabic Vocabulary", "description": "Everyday Arabic words and phrases" },
+        { "id": "arabic-reading", "name": "Arabic Reading", "description": "Reading simple Arabic words and sentences" },
+        { "id": "arabic-writing", "name": "Arabic Writing & Composition", "description": "Writing simple Arabic sentences and short compositions" }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English Language Arts",
+      "icon": "📚",
+      "color": "#6A1B9A",
+      "strands": [
+        { "id": "phonemic-awareness", "name": "Phonemic Awareness", "description": "Hearing, identifying, and manipulating sounds in words" },
+        { "id": "letter-recognition", "name": "Letter Recognition & Formation", "description": "Identifying uppercase and lowercase letters, writing them" },
+        { "id": "phonics", "name": "Phonics", "description": "Sound-letter relationships, blending, and decoding" },
+        { "id": "sight-words", "name": "Sight Words & Vocabulary", "description": "High-frequency words, word walls, vocabulary building" },
+        { "id": "reading", "name": "Reading & Comprehension", "description": "Reading fluency, comprehension strategies, literary analysis" },
+        { "id": "writing", "name": "Writing & Handwriting", "description": "Letter formation, sentence writing, creative and structured writing" },
+        { "id": "grammar", "name": "Grammar & Usage", "description": "Parts of speech, sentence structure, punctuation" },
+        { "id": "literature", "name": "Literature & Poetry", "description": "Exposure to stories, poems, genres, and literary elements" }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "icon": "🔢",
+      "color": "#E65100",
+      "strands": [
+        { "id": "number-sense", "name": "Number Sense & Counting", "description": "Counting, number recognition, place value, comparing numbers" },
+        { "id": "operations", "name": "Operations & Algebraic Thinking", "description": "Addition, subtraction, patterns, equations" },
+        { "id": "geometry", "name": "Geometry & Spatial Sense", "description": "Shapes, spatial reasoning, symmetry, transformations" },
+        { "id": "measurement", "name": "Measurement & Data", "description": "Length, weight, volume, time, graphing, data collection" },
+        { "id": "patterns", "name": "Patterns & Logic", "description": "Recognizing, extending, and creating patterns; logical reasoning" },
+        { "id": "money-time", "name": "Money & Time", "description": "Coin recognition, basic values, telling time, calendars" }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "icon": "🔬",
+      "color": "#283593",
+      "strands": [
+        { "id": "life-science", "name": "Life Science (Biology)", "description": "Plants, animals, human body, living things, habitats" },
+        { "id": "physical-science", "name": "Physical Science", "description": "Matter, forces, energy, magnetism, simple machines" },
+        { "id": "earth-science", "name": "Earth Science", "description": "Rocks, soil, water cycle, landforms, natural resources" },
+        { "id": "space", "name": "Space & Astronomy", "description": "Sun, moon, stars, planets, day/night, seasons" },
+        { "id": "weather", "name": "Weather & Climate", "description": "Weather types, seasons, clouds, measurement, forecasting" },
+        { "id": "environment", "name": "Environment & Nature", "description": "Ecosystems, conservation, food chains, nature exploration" }
+      ]
+    },
+    {
+      "id": "social-studies",
+      "name": "Social Studies",
+      "icon": "🌍",
+      "color": "#4E342E",
+      "strands": [
+        { "id": "self-family", "name": "Self & Family", "description": "Identity, family roles, personal history, emotions" },
+        { "id": "community", "name": "Community & Helpers", "description": "Community workers, places, rules, cooperation" },
+        { "id": "culture", "name": "Culture & Diversity", "description": "Cultural awareness, traditions, similarities and differences" },
+        { "id": "geography", "name": "Geography & Maps", "description": "Maps, globes, continents, countries, landmarks" },
+        { "id": "history", "name": "History Basics", "description": "Past vs present, timelines, simple historical events" }
+      ]
+    },
+    {
+      "id": "art-music",
+      "name": "Art & Music",
+      "icon": "🎨",
+      "color": "#AD1457",
+      "strands": [
+        { "id": "visual-arts", "name": "Visual Arts (Drawing, Painting)", "description": "Drawing techniques, color theory, painting, mixed media" },
+        { "id": "music", "name": "Music & Rhythm", "description": "Singing, rhythm, instruments, music appreciation" },
+        { "id": "crafts", "name": "Crafts & Sculpture", "description": "Paper crafts, clay, building, 3D art" },
+        { "id": "drama", "name": "Dramatic Play & Performance", "description": "Role play, puppet shows, storytelling performance" }
+      ]
+    },
+    {
+      "id": "physical-education",
+      "name": "Physical Education",
+      "icon": "🏃",
+      "color": "#558B2F",
+      "strands": [
+        { "id": "gross-motor", "name": "Gross Motor Skills", "description": "Running, jumping, climbing, balance, coordination" },
+        { "id": "fine-motor", "name": "Fine Motor Skills", "description": "Pencil grip, cutting, threading, puzzles, manipulation" },
+        { "id": "health", "name": "Health & Nutrition", "description": "Healthy food groups, hygiene, body care, exercise" },
+        { "id": "sports-games", "name": "Sports & Games", "description": "Team games, individual challenges, sport basics" }
+      ]
+    },
+    {
+      "id": "life-skills",
+      "name": "Life Skills & Social-Emotional",
+      "icon": "🌱",
+      "color": "#F57F17",
+      "strands": [
+        { "id": "self-care", "name": "Self-Care & Hygiene", "description": "Dressing, bathing, dental care, personal cleanliness" },
+        { "id": "manners", "name": "Manners & Etiquette", "description": "Polite language, sharing, taking turns, table manners" },
+        { "id": "emotional", "name": "Emotional Intelligence", "description": "Identifying feelings, empathy, self-regulation, coping" },
+        { "id": "safety", "name": "Safety Awareness", "description": "Home safety, stranger awareness, road safety, emergency" },
+        { "id": "independence", "name": "Independence & Responsibility", "description": "Chores, organization, time management, decision-making" }
+      ]
+    }
+  ]
+}

@@ -33,6 +33,7 @@ model Profile {
   quran  QuranProgress[]
   skills SkillProgress[]
   books  Book[]
+  studentPlans StudentPlan[]
 
   @@index([familyId])
 }
@@ -89,4 +90,69 @@ model Book {
   createdAt DateTime @default(now())
 
   @@index([profileId])
+}
+
+model CurriculumTopic {
+  id                String @id
+  subject           String
+  strand            String
+  level             Int    // 0-6 matching age groups
+  ageGroup          String // "0-1", "1-2", etc
+  title             String
+  description       String
+  category          String // introduction, practice, mastery
+  estimatedSessions Int    @default(2)
+  tags              String @default("[]") // JSON array
+  prerequisites     String @default("[]") // JSON array of IDs
+  materials         String @default("")
+
+  dailyTasks DailyPlanTask[]
+}
+
+model StudentPlan {
+  id            String   @id @default(cuid())
+  profileId     String
+  profile       Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  startDate     String   // YYYY-MM-DD
+  totalDays     Int      @default(365)
+  onboardingAge Int
+  level         Int      // 0-6 derived from age
+  knownTopics   String   @default("[]") // JSON array of topic IDs
+  skippedTopics String   @default("[]") // JSON array of topic IDs
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+
+  dailyPlans DailyPlan[]
+
+  @@index([profileId])
+}
+
+model DailyPlan {
+  id            String      @id @default(cuid())
+  studentPlanId String
+  studentPlan   StudentPlan @relation(fields: [studentPlanId], references: [id], onDelete: Cascade)
+  date          String      // YYYY-MM-DD
+  dayNumber     Int
+  isCompleted   Boolean     @default(false)
+  createdAt     DateTime    @default(now())
+
+  tasks DailyPlanTask[]
+
+  @@unique([studentPlanId, date])
+  @@index([studentPlanId])
+}
+
+model DailyPlanTask {
+  id              String        @id @default(cuid())
+  dailyPlanId     String
+  dailyPlan       DailyPlan     @relation(fields: [dailyPlanId], references: [id], onDelete: Cascade)
+  topicId         String
+  topic           CurriculumTopic @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  subject         String
+  status          String        @default("pending") // pending, completed, skipped, not-needed, carried-over
+  feedback        String        @default("") // teacher feedback note
+  completedAt     DateTime?
+
+  @@index([dailyPlanId])
+  @@index([topicId])
 }

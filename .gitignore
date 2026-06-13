@@ -16,3 +16,11 @@ prisma/dev.db-journal
 
 .vercel
 .dburl_tmp\n.nextauth_tmp\n_set_db_url.py
+
+# Temp and build files
+.dburl_tmp
+.nextauth_tmp
+_set_db_url.py
+data/__pycache__/
+data/_build_science_social.py
+data/curriculum-part2.json
