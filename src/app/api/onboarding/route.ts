@@ -7,7 +7,7 @@ import { generateYearlyPlan, savePlanToDb } from '@/lib/daily-planner';
 // POST /api/onboarding — Create a student plan
 export async function POST(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session?.user?.profileId) {
+  if (!session?.user?.id) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
@@ -42,7 +42,7 @@ export async function POST(req: Request) {
   return NextResponse.json({
     planId: plan.id,
     totalDays: yearlyPlan.length,
-    totalTasks: yearlyPlan.reduce((sum, d) => sum + d.tasks.length, 0),
+    totalTasks: yearlyPlan.reduce((sum: number, d: any) => sum + d.tasks.length, 0),
     firstDay: yearlyPlan[0],
   });
 }
@@ -50,12 +50,12 @@ export async function POST(req: Request) {
 // GET /api/onboarding — Get current student plan info
 export async function GET() {
   const session = await getServerSession(authOptions);
-  if (!session?.user?.profileId) {
+  if (!session?.user?.id) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   const plans = await prisma.studentPlan.findMany({
-    where: { profileId: session.user.profileId },
+    where: { profileId: session.user.id },
     include: {
       dailyPlans: {
         take: 1,

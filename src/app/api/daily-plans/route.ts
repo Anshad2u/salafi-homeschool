@@ -7,12 +7,12 @@ import { updateTaskStatus, getTodayPlan } from '@/lib/daily-planner';
 // GET /api/daily-plans?profileId=xxx&date=2026-06-13
 export async function GET(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session?.user?.profileId) {
+  if (!session?.user?.id) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   const { searchParams } = new URL(req.url);
-  const profileId = searchParams.get('profileId') || session.user.profileId;
+  const profileId = searchParams.get('profileId') || session.user.id;
   const date = searchParams.get('date');
 
   if (!date) {
@@ -88,7 +88,7 @@ export async function GET(req: Request) {
 // PATCH /api/daily-plans — Update a task's status
 export async function PATCH(req: Request) {
   const session = await getServerSession(authOptions);
-  if (!session?.user?.profileId) {
+  if (!session?.user?.id) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 

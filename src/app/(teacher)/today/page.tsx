@@ -71,7 +71,7 @@ export default function TeacherTodayPage() {
       // Fetch daily plan for each student
       const planPromises = students.map(async (student: Profile) => {
         try {
-          const res = await fetch(`/api/daily-plans?profileId=${student.id}&date=${currentDate}`);
+          const res = await fetch(`/api/daily-plans?profileId=${student.id}&date=${currentDate}`, { credentials: 'include' });
           if (res.ok) {
             const data = await res.json();
             return { studentId: student.id, plan: data.plan };
