@@ -54,7 +54,11 @@ export default function PlanningPage() {
       ]);
       const famData = await famRes.json();
       const settData = await settRes.json();
-      const profiles: Profile[] = famData.profiles ?? famData ?? [];
+      const profiles: Profile[] = Array.isArray(famData.profiles)
+        ? famData.profiles
+        : Array.isArray(famData)
+          ? famData
+          : [];
       setChildren(profiles.filter((p) => p.role.toUpperCase() === "STUDENT"));
       setSettings(settData);
 
@@ -65,7 +69,11 @@ export default function PlanningPage() {
           fetch(`/api/tasks?date=${date}`)
             .then((r) => r.json())
             .then((data) => {
-              allTasks[date] = data.tasks ?? data ?? [];
+              allTasks[date] = Array.isArray(data)
+                ? data
+                : Array.isArray(data.tasks)
+                  ? data.tasks
+                  : [];
             })
             .catch(() => {
               allTasks[date] = [];
@@ -85,12 +93,12 @@ export default function PlanningPage() {
   }, [fetchData]);
 
   const prayerSlots = settings?.prayerSlots ?? [
-    "After Fajr",
-    "Morning",
-    "After Dhuhr",
-    "After Asr",
-    "After Maghrib",
-    "Evening",
+    { name: "After Fajr", desc: "Morning Quran & adhkar" },
+    { name: "Morning", desc: "Core subjects" },
+    { name: "After Dhuhr", desc: "Arabic & Islamic studies" },
+    { name: "After Asr", desc: "Reading & review" },
+    { name: "After Maghrib", desc: "Evening adhkar" },
+    { name: "Evening", desc: "Free reading / catch up" },
   ];
 
   const handleAddTask = async (e: React.FormEvent) => {
@@ -254,9 +262,9 @@ export default function PlanningPage() {
                 onChange={(e) => setFormSlot(e.target.value)}
               >
                 <option value="">No slot</option>
-                {prayerSlots.map((s: string) => (
-                  <option key={s} value={s}>
-                    {s}
+                {prayerSlots.map((s: { name: string; desc: string }) => (
+                  <option key={s.name} value={s.name}>
+                    {s.name} — {s.desc}
                   </option>
                 ))}
               </select>

@@ -40,7 +40,11 @@ export default function AdminDashboard() {
         // Fetch family profiles
         const famRes = await fetch("/api/family");
         const famData = await famRes.json();
-        const profiles: Profile[] = famData.profiles ?? famData ?? [];
+        const profiles: Profile[] = Array.isArray(famData.profiles)
+          ? famData.profiles
+          : Array.isArray(famData)
+            ? famData
+            : [];
         const childProfiles = profiles.filter(
           (p) => p.role.toUpperCase() === "STUDENT"
         );
@@ -55,7 +59,11 @@ export default function AdminDashboard() {
             fetch(`/api/tasks?date=${date}`)
               .then((r) => r.json())
               .then((data) => {
-                allTasks[date] = data.tasks ?? data ?? [];
+                allTasks[date] = Array.isArray(data)
+                  ? data
+                  : Array.isArray(data.tasks)
+                    ? data.tasks
+                    : [];
               })
               .catch(() => {
                 allTasks[date] = [];

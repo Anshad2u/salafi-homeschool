@@ -28,6 +28,7 @@ export default function TaskRow({
   showNotes = false,
 }: TaskRowProps) {
   const subject = subj(task.subject);
+  const status = task.status?.toLowerCase() || "";
 
   return (
     <div className="task">
@@ -69,7 +70,7 @@ export default function TaskRow({
 
       {showActions && (
         <div className="row" style={{ gap: 6 }}>
-          {task.status !== "taught" && (
+          {status !== "taught" && (
             <button
               className="btn btn-sm btn-soft"
               onClick={() => onStatusChange?.(task.id, "taught")}
@@ -77,7 +78,7 @@ export default function TaskRow({
               Mark taught
             </button>
           )}
-          {task.status !== "done" && (
+          {status !== "done" && (
             <button
               className="btn btn-sm"
               onClick={() => onStatusChange?.(task.id, "done")}
@@ -85,7 +86,7 @@ export default function TaskRow({
               Mark done
             </button>
           )}
-          {task.status !== "planned" && (
+          {status !== "planned" && (
             <button
               className="btn btn-sm btn-soft"
               onClick={() => onStatusChange?.(task.id, "planned")}
