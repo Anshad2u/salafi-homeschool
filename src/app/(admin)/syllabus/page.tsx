@@ -14,7 +14,7 @@ type Topic = {
 
 const LEVEL_LABELS = ['0-1', '1-2', '2-3', '3-4', '4-5', '5-6', '6-7'];
 const LEVEL_EMOJIS = ['👶', '🧒', '👶', '🧒', '🧒', '👦', '👦'];
-const SUBJECT_ORDER = ['quran', 'tajweed', 'tafsir', 'aqeedah', 'fiqh', 'seerah', 'akhlaq', 'arabic', 'adhkar', 'muttoon', 'coding', 'computer', 'home-science', 'english', 'mathematics', 'science', 'social-studies', 'art-music', 'physical-education', 'life-skills'];
+const SUBJECT_ORDER = ['quran', 'tajweed', 'tafsir', 'aqeedah', 'fiqh', 'seerah', 'akhlaq', 'arabic', 'adhkar', 'muttoon', 'coding', 'computer', 'home-science', 'safety', 'english', 'mathematics', 'science', 'social-studies', 'art-music', 'physical-education', 'life-skills'];
 const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'quran': { name: 'Quran', icon: '📖' },
   'tajweed': { name: 'Tajweed', icon: '🎙️' },
@@ -36,6 +36,7 @@ const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'coding': { name: 'Coding', icon: '💻' },
   'computer': { name: 'Computer', icon: '🖥️' },
   'home-science': { name: 'Home Science', icon: '🏠' },
+  'safety': { name: 'Safety', icon: '🛡️' },
 };
 
 function statusIcon(status: string | null): { emoji: string; label: string } {

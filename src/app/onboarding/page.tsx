@@ -39,6 +39,7 @@ const SUBJECT_GROUPS: Record<string, { label: string; emoji: string }> = {
   coding: { label: 'Coding', emoji: '💻' },
   computer: { label: 'Computer', emoji: '🖥️' },
   'home-science': { label: 'Home Science', emoji: '🏠' },
+  safety: { label: 'Safety', emoji: '🛡️' },
 };
 
 export default function OnboardingPage() {

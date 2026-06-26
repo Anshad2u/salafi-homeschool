@@ -9,14 +9,17 @@ import { seedMuttoon } from './curriculum-muttoon';
 import { seedCoding } from './curriculum-coding';
 import { seedComputer } from './curriculum-computer';
 import { seedHomeScience } from './curriculum-home-science';
+import { seedSafety } from './curriculum-safety';
+import { seedAkhlaqEQ } from './curriculum-akhlaq-eq';
+import { seedEnhancements } from './curriculum-enhancements';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log('=== Seeding all new curriculum subjects ===');
+  console.log('=== Seeding all curriculum subjects ===');
   
-  // Islamic subjects
+  // Core Islamic subjects
   await seedTajweed();
   await seedTafsir();
   await seedArabic();
@@ -30,6 +33,11 @@ async function main() {
   await seedCoding();
   await seedComputer();
   await seedHomeScience();
+  await seedSafety();
+  
+  // Enhancements
+  await seedAkhlaqEQ();
+  await seedEnhancements();
   
   const count = await prisma.$queryRawUnsafe<{cnt: number}[]>(
     'SELECT COUNT(*) as cnt FROM "CurriculumTopic"'

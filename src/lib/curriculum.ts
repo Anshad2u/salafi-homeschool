@@ -140,6 +140,7 @@ export const SUBJECTS: SubjectDef[] = [
   { id: "coding", name: "Coding", icon: "💻" },
   { id: "computer", name: "Computer", icon: "🖥️" },
   { id: "home-science", name: "Home Science", icon: "🏠" },
+  { id: "safety", name: "Safety", icon: "🛡️" },
 ];
 
 // ── Skills per subject (IXL-style mastery tracking) ──────────────
@@ -230,6 +231,9 @@ export const SKILLS: Record<string, string[]> = {
     "His character",
   ],
   akhlaq: [
+    "Emotional intelligence",
+    "Empathy",
+    "Conflict resolution",
     "Honesty",
     "Kindness",
     "Patience (Sabr)",
@@ -264,6 +268,13 @@ export const SKILLS: Record<string, string[]> = {
     "Internet safety",
     "Word processing",
     "Spreadsheets",
+  ],
+  safety: [
+    "Body safety",
+    "Road safety",
+    "Fire safety",
+    "Water safety",
+    "Emergency response",
   ],
   "home-science": [
     "Nutrition basics",

@@ -25,6 +25,7 @@ const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'coding': { name: 'Coding', icon: '💻' },
   'computer': { name: 'Computer', icon: '🖥️' },
   'home-science': { name: 'Home Science', icon: '🏠' },
+  'safety': { name: 'Safety', icon: '🛡️' },
 };
 
 // GET /api/syllabus?level=3 — Get all topics with per-child coverage
