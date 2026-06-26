@@ -1,20 +1,27 @@
 import { prisma } from './prisma';
 
 const SUBJECTS_PER_DAY: Record<string, number> = {
-  'quran': 2,           // 1 recitation + 1 memorization/understanding
-  'islamic-studies': 1,
-  'english': 2,         // 1 phonics/reading + 1 writing/grammar
+  'quran': 2,
+  'tajweed': 1,
+  'tafsir': 1,
+  'aqeedah': 1,
+  'fiqh': 1,
+  'seerah': 1,
+  'akhlaq': 1,
+  'arabic': 1,
+  'english': 2,
   'mathematics': 1,
   'science': 1,
-  'art-music': 1,       // alternating
-  'physical-education': 1, // alternating
+  'art-music': 1,
+  'physical-education': 1,
   'life-skills': 1,
-  'social-studies': 0,  // occasional
+  'social-studies': 0,
 };
 
 const ALL_SUBJECTS = [
-  'quran', 'islamic-studies', 'english', 'mathematics',
-  'science', 'social-studies', 'art-music', 'physical-education', 'life-skills'
+  'quran', 'tajweed', 'tafsir', 'aqeedah', 'fiqh', 'seerah', 'akhlaq',
+  'arabic', 'english', 'mathematics', 'science', 'social-studies',
+  'art-music', 'physical-education', 'life-skills'
 ];
 
 /**

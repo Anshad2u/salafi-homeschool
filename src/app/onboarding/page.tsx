@@ -20,7 +20,13 @@ const AGE_OPTIONS = [
 
 const SUBJECT_GROUPS: Record<string, { label: string; emoji: string }> = {
   quran: { label: 'Quran', emoji: '📖' },
-  'islamic-studies': { label: 'Islamic Studies', emoji: '🕌' },
+  tajweed: { label: 'Tajweed', emoji: '🎙️' },
+  tafsir: { label: 'Tafsir', emoji: '📘' },
+  aqeedah: { label: 'Aqeedah', emoji: '🕌' },
+  fiqh: { label: 'Fiqh', emoji: '📜' },
+  seerah: { label: 'Seerah', emoji: '📚' },
+  akhlaq: { label: 'Akhlaq', emoji: '🤲' },
+  arabic: { label: 'Arabic', emoji: '✍️' },
   english: { label: 'English', emoji: '🔤' },
   mathematics: { label: 'Mathematics', emoji: '🔢' },
   science: { label: 'Science', emoji: '🔬' },

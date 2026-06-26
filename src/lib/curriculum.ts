@@ -126,13 +126,15 @@ export const SURAHS: [string, number][] = [
 export const SUBJECTS: SubjectDef[] = [
   { id: "quran", name: "Quran", icon: "📖" },
   { id: "tajweed", name: "Tajweed", icon: "🎙️" },
+  { id: "tafsir", name: "Tafsir", icon: "📘" },
   { id: "arabic", name: "Arabic", icon: "✍️" },
-  { id: "islamic", name: "Islamic Studies", icon: "🕌" },
-  { id: "adhkar", name: "Adhkar", icon: "🤲" },
+  { id: "aqeedah", name: "Aqeedah", icon: "🕌" },
+  { id: "fiqh", name: "Fiqh", icon: "📜" },
+  { id: "seerah", name: "Seerah", icon: "📚" },
+  { id: "akhlaq", name: "Akhlaq", icon: "🤲" },
   { id: "math", name: "Math", icon: "🔢" },
   { id: "science", name: "Science", icon: "🔬" },
   { id: "english", name: "English", icon: "📝" },
-  { id: "reading", name: "Reading", icon: "📚" },
 ];
 
 // ── Skills per subject (IXL-style mastery tracking) ──────────────
@@ -191,17 +193,51 @@ export const SKILLS: Record<string, string[]> = {
     "Qalqalah",
     "Stopping & starting",
   ],
-  islamic: [
-    "Pillars of Islam",
+  tafsir: [
+    "Juz Amma meanings",
+    "Short surahs tafsir",
+    "Quran stories",
+    "Key themes",
+    "Historical context",
+  ],
+  aqeedah: [
+    "Allah is One",
     "Pillars of Iman",
+    "Five Pillars of Islam",
+    "Names of Allah",
+    "Prophets of Allah",
+    "Tawhid basics",
+  ],
+  fiqh: [
     "Wudu steps",
-    "Salah how-to",
-    "Seerah: Makkah period",
-    "Seerah: Madinah period",
-    "Names of Allah (basics)",
-    "Stories of the Prophets",
-    "Daily adhkar",
-    "Manners (Adab)",
+    "Salah basics",
+    "Halal food",
+    "Fasting rules",
+    "Zakat basics",
+    "Hajj overview",
+  ],
+  seerah: [
+    "Prophet's birth",
+    "Early life",
+    "First revelation",
+    "Migration to Madinah",
+    "Key battles",
+    "His character",
+  ],
+  akhlaq: [
+    "Honesty",
+    "Kindness",
+    "Patience (Sabr)",
+    "Gratitude (Shukr)",
+    "Respecting elders",
+    "Controlling anger",
+  ],
+  quran: [
+    "Al-Fatiha memorization",
+    "Short surahs (113-114)",
+    "Juz Amma recitation",
+    "Tilawah fluency",
+    "Hifz retention",
   ],
 };
 
@@ -230,12 +266,16 @@ export const REC_BOOKS: [string, string][] = [
 // ── Standard day template [subjectId, title, slot] ───────────────
 export const STD_DAY: [string, string, string][] = [
   ["quran", "Memorize new ayahs", "After Fajr"],
-  ["adhkar", "Morning adhkar", "After Fajr"],
+  ["tajweed", "Tajweed practice", "After Fajr"],
+  ["aqeedah", "Aqeedah lesson", "Morning"],
   ["math", "Math practice", "Morning"],
   ["english", "Reading & phonics", "Morning"],
   ["arabic", "Arabic letters & words", "After Dhuhr"],
-  ["islamic", "Seerah story time", "After Dhuhr"],
-  ["reading", "Read a book for 15 minutes", "After Asr"],
+  ["tafsir", "Tafsir story time", "After Dhuhr"],
+  ["seerah", "Seerah story time", "After Dhuhr"],
+  ["fiqh", "Fiqh lesson", "After Asr"],
+  ["akhlaq", "Character building", "After Asr"],
+  ["science", "Science exploration", "After Asr"],
 ];
 
 // ── Badge definitions ────────────────────────────────────────────

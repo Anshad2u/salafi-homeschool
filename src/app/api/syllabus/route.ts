@@ -6,7 +6,13 @@ import { prisma } from '@/lib/prisma';
 // Subjects display mapping
 const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'quran': { name: 'Quran', icon: '📖' },
-  'islamic-studies': { name: 'Islamic Studies', icon: '🕌' },
+  'tajweed': { name: 'Tajweed', icon: '🎙️' },
+  'tafsir': { name: 'Tafsir', icon: '📘' },
+  'aqeedah': { name: 'Aqeedah', icon: '🕌' },
+  'fiqh': { name: 'Fiqh', icon: '📜' },
+  'seerah': { name: 'Seerah', icon: '📚' },
+  'akhlaq': { name: 'Akhlaq', icon: '🤲' },
+  'arabic': { name: 'Arabic', icon: '✍️' },
   'science': { name: 'Science', icon: '🔬' },
   'english': { name: 'English', icon: '📝' },
   'mathematics': { name: 'Math', icon: '🔢' },

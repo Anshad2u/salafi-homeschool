@@ -1,0 +1,74 @@
+import { PrismaClient } from '@prisma/client';
+const prisma = new PrismaClient();
+
+export async function seedTafsir() {
+    const existing = await prisma.$queryRawUnsafe<{cnt: number}[]>(
+      "SELECT COUNT(*) as cnt FROM \"CurriculumTopic\" WHERE subject='tafsir'"
+    );
+    if (Number(existing[0]?.cnt ?? 0) > 0) {
+      console.log('  Seeding tafsir topics already exist — skipping.');
+      return;
+    }
+  5|  console.log('Seeding tafsir curriculum...');
+
+  await prisma.$executeRawUnsafe(`INSERT INTO "CurriculumTopic" (id,subject,strand,level,"ageGroup",title,description,category,"estimatedSessions",tags,prerequisites,materials) VALUES
+('tf-001','tafsir','tafsir-foundations',0,'0-1','Allah speaks to us through Quran','Baby hears Quran daily — it is Allah''s direct speech to humanity. Play Quran during meals and sleep.','introduction',7,'["listening"]','[""]','Quran audio'),
+('tf-002','tafsir','tafsir-foundations',0,'0-1','Surah Al-Fatiha — our daily prayer','Al-Fatiha is recited in every rak''ah. Baby absorbs its sound through parent''s salah.','introduction',7,'["listening"]','[""]','Quran audio, prayer mat'),
+('tf-003','tafsir','tafsir-foundations',1,'1-2','Bismillah — saying Allah''s name','Learn that Bismillah means "In the name of Allah." Say it before eating, drinking, and starting tasks.','introduction',5,'["verbal"]','["tf-001"]','mealtime routine'),
+('tf-004','tafsir','tafsir-foundations',1,'1-2','Alhamdulillah — praise to Allah','Alhamdulillah means "All praise is due to Allah." Say it after eating, when happy, and when sneezing.','introduction',5,'["verbal"]','["tf-003"]','daily routine'),
+('tf-005','tafsir','tafsir-short-surahs',2,'2-3','Meaning of Surah An-Nas (114)','"Say: I seek refuge in the Lord of mankind." Allah protects us from evil. The last surah of the Quran.','introduction',3,'["verbal","visual"]','["tf-001"]','Quran, translation card'),
+('tf-006','tafsir','tafsir-short-surahs',2,'2-3','Meaning of Surah Al-Falaq (113)','"Say: I seek refuge in the Lord of daybreak." Seek Allah''s protection from jealousy, magic, and darkness.','introduction',3,'["verbal","visual"]','["tf-005"]','Quran, translation card'),
+('tf-007','tafsir','tafsir-short-surahs',2,'2-3','Meaning of Surah Al-Ikhlas (112)','"Say: He is Allah, the One." The most important surah — it is one-third of the Quran in reward.','introduction',3,'["verbal"]','["tf-005"]','Quran, translation card'),
+('tf-008','tafsir','tafsir-short-surahs',2,'2-3','Why was the Quran revealed?','Allah sent the Quran to guide humanity, teach truth from falsehood, and show the path to Paradise.','introduction',2,'["verbal"]','["tf-001"]','storybook'),
+('tf-009','tafsir','tafsir-short-surahs',2,'2-3','Allah''s signs in nature','The sky, mountains, rivers, and stars are signs of Allah. Refer to Quran 3:190-191.','introduction',2,'["visual","verbal"]','["tf-008"]','nature walk, picture cards'),
+('tf-010','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Fil (105)','The story of the elephant army — Allah sent birds to destroy Abrahah''s army that wanted to destroy the Ka''bah.','introduction',3,'["verbal","visual"]','["tf-005"]','Quran, storybook, illustration'),
+('tf-011','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Quraysh (106)','Allah blessed Quraysh with trade caravans in summer and winter. Be grateful for Allah''s blessings.','introduction',2,'["verbal"]','["tf-010"]','Quran, map'),
+('tf-012','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Ma''un (107)','Allah asks: Do you see the one who denies the Day of Judgment? Woe to those who don''t pray and don''t feed the poor.','introduction',2,'["verbal"]','["tf-010"]','Quran'),
+('tf-013','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Kawthar (108)','Allah gave Prophet Muhammad ﷺ abundant good. Sacrifice for Allah and don''t be jealous of enemies.','introduction',2,'["verbal"]','["tf-010"]','Quran'),
+('tf-014','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Kafirun (109)','"To you your religion, to me mine." No compromise in Tawhid. The Prophet ﷺ recited this at death.','introduction',2,'["verbal"]','["tf-007"]','Quran'),
+('tf-015','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah An-Nasr (110)','When victory comes and people enter Allah''s religion, glorify Him and seek forgiveness.','introduction',2,'["verbal"]','["tf-014"]','Quran'),
+('tf-016','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Masad (107)','Consequence of Abu Lahab — he and his wife will burn in Fire. Don''t oppose Allah''s message.','introduction',2,'["verbal"]','["tf-014"]','Quran'),
+('tf-017','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Asr (103)','By time, all humans are in loss — except those who believe, do righteous deeds, and advise each other to truth and patience.','introduction',2,'["verbal"]','["tf-007"]','Quran'),
+('tf-018','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Humazah (104)','Woe to every scorner and mocker who collects wealth and counts it. They will be thrown in the blazing Fire.','introduction',2,'["verbal"]','["tf-017"]','Quran'),
+('tf-019','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Qariah (101)','The Striking Hour — people will be like scattered moths. Those given their book in the right hand will be happy.','introduction',2,'["verbal","visual"]','["tf-017"]','Quran, illustration'),
+('tf-020','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah At-Takathur (102)','Competition for more wealth distracts you. You will know the truth on the Day of Judgment.','introduction',2,'["verbal"]','["tf-019"]','Quran'),
+('tf-021','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Adiyat (100)','Horses galloping — humans are ungrateful to Allah. He knows everything, even what hearts hide.','introduction',2,'["verbal"]','["tf-019"]','Quran'),
+('tf-022','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Az-Zalzalah (99)','The earth will shake and throw out its treasures. Every atom of good and evil will be weighed.','introduction',2,'["verbal","visual"]','["tf-019"]','Quran, scale illustration'),
+('tf-023','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Bayyinah (98)','The clear proof — disbelievers from People of Book and polytheists won''t stop until clear evidence comes.','introduction',2,'["verbal"]','["tf-022"]','Quran'),
+('tf-024','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Qadr (97)','The Night of Power — better than 1000 months. Angels and Jibril descend by Allah''s permission.','introduction',2,'["verbal"]','["tf-023"]','Quran, Laylatul Qadr discussion'),
+('tf-025','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Alaq (96)','First revelation: "Read in the name of your Lord." Allah created man from clots. He teaches by the pen.','introduction',2,'["verbal"]','["tf-024"]','Quran, Hira cave story'),
+('tf-026','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Al-Sharh (94)','"Did We not expand your breast?" After hardship comes ease. Pray and give charity.','introduction',2,'["verbal"]','["tf-025"]','Quran'),
+('tf-027','tafsir','tafsir-juz-amma',3,'3-4','Tafsir: Surah Ad-Duha (93)','By the morning light and night — your Lord has not abandoned you. The best is yet to come.','introduction',2,'["verbal"]','["tf-026"]','Quran'),
+('tf-028','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah At-Tin (95)','By the fig, olive, Mount Sinai, and this safe city — Allah created man in the best form. We reduced him to the lowest.','introduction',2,'["verbal"]','["tf-025"]','Quran, map of Makka/Madinah'),
+('tf-029','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah Alam Nashrah (94)','The expansion of the Prophet''s heart — after every difficulty, Allah grants ease. Two raka''ah after travel is better than the world.','introduction',2,'["verbal"]','["tf-026"]','Quran'),
+('tf-030','tafsir','tafsir-makki-surahs',4,'4-5','Stories in Quran: Prophet Yusuf (AS)','Complete story in Surah Yusuf — dreams, brothers'' jealousy, Egypt, prison, interpretation, reunion. Lessons about patience and trust in Allah.','introduction',4,'["verbal","visual"]','["tf-025"]','Quran, storybook, timeline'),
+('tf-031','tafsir','tafsir-makki-surahs',4,'4-5','Stories in Quran: Prophet Musa (AS)','Moses in the basket, burning bush, staff miracle, parting the sea, confrontation with Pharaoh. Lessons about courage and tawhid.','introduction',4,'["verbal","visual"]','["tf-030"]','Quran, storybook'),
+('tf-032','tafsir','tafsir-makki-surahs',4,'4-5','Stories in Quran: Prophet Nuh (AS)','The flood story — Nuh built the ark, his son refused to board, believers were saved. Lessons about obedience to Allah.','introduction',3,'["verbal","visual"]','["tf-030"]','Quran, ark craft project'),
+('tf-033','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah Al-Infitar (82)','The sky will be torn apart, stars will fall, graves will be opened. Every soul will know what it brought forward.','introduction',2,'["verbal","visual"]','["tf-028"]','Quran'),
+('tf-034','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah Al-Mutaffifin (83)','Woe to cheating merchants. The Day of Judgment will reveal all. The记录 of deeds is with Allah.','introduction',2,'["verbal"]','["tf-033"]','Quran'),
+('tf-035','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah Al-Inshiqaq (84)','The sky will be split, earth will be stretched, every deed will be brought forward. Your record will be given to you.','introduction',2,'["verbal"]','["tf-033"]','Quran'),
+('tf-036','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah Al-Buruj (85)','The story of the people of the ditch — believers burned alive for their faith. Allah watches and protects.','introduction',2,'["verbal"]','["tf-033"]','Quran'),
+('tf-037','tafsir','tafsir-makki-surahs',4,'4-5','Tafsir: Surah At-Tariq (86)','By the night star — every soul has a guardian. The Quran is a protected message. Humans are weak.','introduction',2,'["verbal"]','["tf-033"]','Quran, night sky observation'),
+('tf-038','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Al-A''la (87)','Glorify the name of your Lord, the Most High. He created and proportioned. He determined and guided.','introduction',2,'["verbal"]','["tf-025"]','Quran'),
+('tf-039','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Al-Ghashiyah (88)','The overwhelming event — faces on that day will be humble, tired, thirsty. The disbelievers will be in Hellfire.','introduction',2,'["verbal"]','["tf-038"]','Quran'),
+('tf-040','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Al-Fajr (89)','By the dawn and ten nights — Allah destroyed Aad, Thamud, and Pharaoh. Be patient and worship your Lord.','introduction',2,'["verbal"]','["tf-038"]','Quran, historical maps'),
+('tf-041','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Al-Balad (90)','By this city — Allah created man to strive. The two paths: gratitude vs ingratitude.','introduction',2,'["verbal"]','["tf-040"]','Quran'),
+('tf-042','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Ash-Shams (91)','By the sun, moon, night, sky, earth — Allah showed truth from falsehood. Believe and do good.','introduction',2,'["verbal"]','["tf-040"]','Quran, creation observation'),
+('tf-043','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Al-Layl (92)','By the night and day — Allah made them as signs. The soul is at peace when given to Allah.','introduction',2,'["verbal"]','["tf-040"]','Quran'),
+('tf-044','tafsir','tafsir-makki-surahs',5,'5-6','Tafsir: Surah Az-Zalzalah (99) — deeper study','Revisit with deeper themes: universal resurrection, atom-sized good/evil, the scale of deeds, human responsibility.','practice',3,'["verbal"]','["tf-022"]','Quran, tafsir book'),
+('tf-045','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Mulk (67)','The dominion belongs to Allah alone. He created death and life to test you. The disbelievers will regret.','practice',3,'["verbal"]','["tf-038"]','Quran, tafsir reference'),
+('tf-046','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Qalam (68)','By the pen — the Prophet ﷺ is not mad. This is a message of honor. Story of the owners of the garden.','practice',3,'["verbal"]','["tf-045"]','Quran'),
+('tf-047','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Haaqah (69)','The inevitable event — the sky will crack, mountains will be scattered. The record of deeds will be given.','practice',2,'["verbal"]','["tf-045"]','Quran'),
+('tf-048','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Ma''arij (70)','The ascending stairs — humans are impatient. Hell has many levels, and Jannah is for the patient.','practice',2,'["verbal"]','["tf-045"]','Quran, Jannah illustration'),
+('tf-049','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Nuh (71)','Nuh called his people for 950 years. Most rejected him. Allah saved him and destroyed the disbelievers.','practice',3,'["verbal","visual"]','["tf-032"]','Quran'),
+('tf-050','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Jinn (72)','The Jinn heard the Quran and some believed. They guard the world and some are believers and some are not.','practice',2,'["verbal"]','["tf-045"]','Quran'),
+('tf-051','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Muzzammil (73)','"O you wrapped in garments" — stand in prayer at night. Recite what is easy. Be patient.','practice',2,'["verbal"]','["tf-045"]','Quran'),
+('tf-052','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Muddaththir (74)','"O you who covers himself" — warn people. Leave your idols. The Fire fuelled by people and stones.','practice',2,'["verbal"]','["tf-045"]','Quran'),
+('tf-053','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Qiyamah (75)','By the Day of Resurrection — humans think they will be left without purpose. Allah knows what the hearts hide.','practice',2,'["verbal"]','["tf-045"]','Quran'),
+('tf-054','tafsir','tafsir-makki-surahs',6,'6-7','Tafsir: Surah Al-Insan (76)','Humans were created from a drop, tested, then given life and death. The righteous will drink from a sealed cup.','practice',2,'["verbal"]','["tf-045"]','Quran'),
+('tf-055','tafsir','tafsir-mastery',6,'6-7','How to do basic tafsir yourself','Steps: read the ayah, check the Arabic words, read the context, find the occasion of revelation, apply the lesson.','mastery',3,'["verbal"]','["tf-054"]','Arabic dictionary, tafsir book'),
+('tf-056','tafsir','tafsir-mastery',6,'6-7','Quranic argumentation — how Allah proves Tawhid','Study how the Quran uses logic, examples, oaths, stories, and warnings to prove that Allah alone is worthy of worship.','mastery',3,'["verbal"]','["tf-055"]','Quran, discussion circles'),
+('tf-057','tafsir','tafsir-mastery',6,'6-7','Themes of the Quran — an overview','Major themes: Tawhid, Prophethood, Day of Judgment, Halal/Haram, Stories of Prophets, Paradise and Hellfire.','mastery',3,'["verbal","visual"]','["tf-055"]','theme chart, poster')`);
+
+  console.log('  Seeded 57 tafsir topics (tf-001 to tf-057)');
+}

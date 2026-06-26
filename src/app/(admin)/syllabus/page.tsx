@@ -14,10 +14,16 @@ type Topic = {
 
 const LEVEL_LABELS = ['0-1', '1-2', '2-3', '3-4', '4-5', '5-6', '6-7'];
 const LEVEL_EMOJIS = ['👶', '🧒', '👶', '🧒', '🧒', '👦', '👦'];
-const SUBJECT_ORDER = ['quran', 'islamic-studies', 'english', 'mathematics', 'science', 'social-studies', 'art-music', 'physical-education', 'life-skills'];
+const SUBJECT_ORDER = ['quran', 'tajweed', 'tafsir', 'aqeedah', 'fiqh', 'seerah', 'akhlaq', 'arabic', 'english', 'mathematics', 'science', 'social-studies', 'art-music', 'physical-education', 'life-skills'];
 const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'quran': { name: 'Quran', icon: '📖' },
-  'islamic-studies': { name: 'Islamic Studies', icon: '🕌' },
+  'tajweed': { name: 'Tajweed', icon: '🎙️' },
+  'tafsir': { name: 'Tafsir', icon: '📘' },
+  'aqeedah': { name: 'Aqeedah', icon: '🕌' },
+  'fiqh': { name: 'Fiqh', icon: '📜' },
+  'seerah': { name: 'Seerah', icon: '📚' },
+  'akhlaq': { name: 'Akhlaq', icon: '🤲' },
+  'arabic': { name: 'Arabic', icon: '✍️' },
   'science': { name: 'Science', icon: '🔬' },
   'english': { name: 'English', icon: '📝' },
   'mathematics': { name: 'Math', icon: '🔢' },
