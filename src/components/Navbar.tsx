@@ -5,6 +5,7 @@ const NAV_ITEMS: Record<string, [string, string, string][]> = {
     ["dashboard", "📊", "Dashboard"],
     ["planning", "🗓️", "Planning"],
     ["reports", "📑", "Reports"],
+    ["syllabus", "📚", "Syllabus"],
     ["onboarding", "🎓", "Onboard"],
     ["settings", "⚙️", "Settings"],
   ],
