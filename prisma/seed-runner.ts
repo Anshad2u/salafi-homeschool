@@ -12,6 +12,8 @@ import { seedHomeScience } from './curriculum-home-science';
 import { seedSafety } from './curriculum-safety';
 import { seedAkhlaqEQ } from './curriculum-akhlaq-eq';
 import { seedEnhancements } from './curriculum-enhancements';
+import { seedArabicEnhanced } from './curriculum-arabic-enhanced';
+import { seedEnglishEnhanced } from './curriculum-english-enhanced';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
@@ -38,6 +40,8 @@ async function main() {
   // Enhancements
   await seedAkhlaqEQ();
   await seedEnhancements();
+  await seedArabicEnhanced();
+  await seedEnglishEnhanced();
   
   const count = await prisma.$queryRawUnsafe<{cnt: number}[]>(
     'SELECT COUNT(*) as cnt FROM "CurriculumTopic"'

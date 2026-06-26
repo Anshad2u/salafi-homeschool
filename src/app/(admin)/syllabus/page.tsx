@@ -39,6 +39,33 @@ const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'safety': { name: 'Safety', icon: '🛡️' },
 };
 
+const STRAND_LABELS: Record<string, string> = {
+  'eng-lphon': '🔤 Letter Sounds', 'eng-sight': '👁️ Sight Words', 'eng-reading': '📖 Reading', 'eng-writing': '✏️ Writing', 'eng-grammar': '📝 Grammar',
+  'ar-alpha': '🔤 Alphabet Recognition', 'ar-writing': '✏️ Writing', 'ar-reading': '📖 Reading', 'ar-vocab': '📚 Vocabulary', 'ar-grammar': '📝 Grammar',
+  'aq-aqeedah': '🕌 Core Beliefs', 'aq-ibadat': '🤲 Worship', 'aq-akhlak': '💚 Character',
+  'fq-ibadat': '🤲 Worship', 'fq-muamalat': '🤝 Interactions', 'fq-munakahat': '💍 Family Law',
+  'si-seerah': '📜 Prophet Biography', 'si-historical': '🏛️ Historical Events',
+  'th-juz-amma': '📘 Juz Amma', 'th-thematic': '📖 Thematic',
+  'tm-nawaaqid': '📕 Nawaaqid Al-Islam', 'tm-qawaid': '📗 Al-Qawaid Al-Arba', 'tm-usool': '📘 Al-Usool Al-Thalaatha', 'tm-nawawi': '📙 Al-Arbaeen Nawawi', 'tm-tuhfatul': '📕 Tuhfatul Atfaal', 'tm-tawheed': '📗 Kitab Al-Tawheed', 'tm-bayquniya': '📙 Mandhumah Bayquniya', 'tm-ajrumiyya': '📕 Al-Ajrumiyya', 'tm-wasitiyya': '📗 Al-Wasitiyya', 'tm-tahawiyya': '📘 Al-Tahawiyya', 'tm-warqat': '📙 Al-Waraqat', 'tm-hikam': '📕 Onwan Al-Hikam',
+  'ad-morning': '🌅 Morning Adhkar', 'ad-evening': '🌙 Evening Adhkar', 'ad-sleep': '😴 Sleep Adhkar', 'ad-daily': '☀️ Daily Duas', 'ad-special': '🤲 Special Duas',
+  'cs-scratch': '🧩 Scratch', 'cs-python': '🐍 Python', 'cs-web': '🌐 Web', 'cs-logic': '🧠 Logic',
+  'co-hardware': '💻 Hardware', 'co-software': '⚙️ Software', 'co-internet': '🌐 Internet', 'co-typing': '⌨️ Typing', 'co-media': '📱 Media Literacy',
+  'hs-cooking': '🍳 Cooking', 'hs-nutrition': '🥗 Nutrition', 'hs-firstaid': '🩹 First Aid', 'hs-household': '🏠 Household', 'hs-gardening': '🌱 Gardening',
+  'sf-safety-body': '🛡️ Body Safety', 'sf-safety-stranger': '🚶 Stranger Safety', 'sf-safety-road': '🚗 Road Safety', 'sf-safety-fire': '🔥 Fire Safety', 'sf-safety-water': '💧 Water Safety', 'sf-safety-emergency': '🚨 Emergency', 'sf-safety-home': '🏠 Home Safety',
+  'akhlaq-emotions': '🧠 Emotional Intelligence',
+  'ls-finance': '💰 Financial Literacy', 'ls-time': '⏰ Time Management',
+  'sc-environment': '🌍 Environmental Stewardship',
+  'quran-memorization': '📖 Memorization', 'quran-recitation': '🎙️ Recitation', 'quran-tajweed': '📐 Tajweed Rules',
+  'tj-makharij': '🗣️ Makharij', 'tj-rules': '📐 Tajweed Rules', 'tj-tilawah': '📖 Tilawah',
+  'sa-science': '🔬 Scientific Inquiry', 'sa-exploration': '🔍 Nature Exploration',
+  'math-numbers': '🔢 Numbers', 'math-shapes': '📐 Shapes', 'math-operations': '➕ Operations',
+  'ss-community': '🏘️ Community', 'ss-geography': '🗺️ Geography',
+  'am-drawing': '🎨 Drawing', 'am-crafts': '✂️ Crafts', 'am-music': '🎵 Music',
+  'pe-movement': '🏃 Movement', 'pe-games': '🎮 Games',
+  'ls-hygiene': '🧼 Hygiene', 'ls-cooking': '🍳 Cooking', 'ls-chores': '🧹 Chores',
+  'aq-tajweed': '🎙️ Tajweed',
+};
+
 function statusIcon(status: string | null): { emoji: string; label: string } {
   switch (status) {
     case 'completed': return { emoji: '✅', label: 'Completed' };
@@ -248,74 +275,69 @@ export default function SyllabusPage() {
                   </span>
                 </h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                  {subjectTopics.map(t => {
-                    const cov = t.childCoverage;
-
-                    return (
-                      <div
-                        key={t.id}
-                        className="row spread"
-                        style={{
-                          padding: '8px 10px',
-                          borderRadius: 8,
-                          background: '#f9fafb',
-                          alignItems: 'flex-start',
-                          gap: 8,
-                        }}
-                      >
-                        <div style={{ flex: 1, minWidth: 0 }}>
-                          <div style={{ fontWeight: 500, fontSize: '0.9rem' }}>{t.title}</div>
-                          <div className="muted" style={{ fontSize: '0.8rem' }}>
-                            {t.description}{t.category ? ` · ${t.category}` : ''}{t.estimatedSessions ? ` · ${t.estimatedSessions} ses` : ''}
-                          </div>
-                        </div>
-
-                        {/* Per-child coverage */}
-                        <div className="row" style={{ gap: 4, flexShrink: 0 }}>
-                          {children.map(child => {
-                            const coverage = cov?.[child.id];
-                            const isInPlan = coverage?.inPlan ?? false;
-                            const st = coverage?.status ?? null;
-
-                            if (editMode) {
-                              return (
-                                <button
-                                  key={child.id}
-                                  onClick={() => handleToggleTopic(child.id, t.id, isInPlan ? 'remove' : 'add')}
-                                  disabled={toggling === t.id}
-                                  title={`${child.name}: ${isInPlan ? 'In plan — click to remove' : 'Not in plan — click to add'}`}
-                                  style={{
-                                    padding: '2px 6px',
-                                    borderRadius: 6,
-                                    border: '1px solid #d1d5db',
-                                    background: isInPlan ? '#d1fae5' : '#fff',
-                                    cursor: 'pointer',
-                                    fontSize: '0.75rem',
-                                    whiteSpace: 'nowrap',
-                                  }}
-                                >
-                                  {child.avatar} {isInPlan ? '✓' : '+'}
-                                </button>
-                              );
-                            }
-
+                  {(() => {
+                    const strands = Array.from(new Set(subjectTopics.map(t => t.strand)));
+                    const hasMultipleStrands = strands.length > 1;
+                    return strands.map(strand => {
+                      const strandTopics = subjectTopics.filter(t => t.strand === strand);
+                      const strandLabel = STRAND_LABELS[strand] || strand;
+                      return (
+                        <div key={strand} style={{ marginBottom: hasMultipleStrands ? 4 : 0 }}>
+                          {hasMultipleStrands && (
+                            <div style={{ fontSize: '0.8rem', fontWeight: 600, color: '#6b7280', padding: '4px 10px', marginBottom: 2 }}>
+                              {strandLabel} ({strandTopics.length})
+                            </div>
+                          )}
+                          {strandTopics.map(t => {
+                            const cov = t.childCoverage;
                             return (
-                              <span
-                                key={child.id}
-                                title={`${child.name}: ${isInPlan ? statusIcon(st).label : 'Not in plan'}`}
-                                style={{ fontSize: '0.85rem', opacity: isInPlan ? 1 : 0.4 }}
-                              >
-                                {child.avatar}
-                                {isInPlan ? (
-                                  st === 'completed' ? '✅' : st === 'pending' || st === 'carried-over' ? '⏳' : st === 'skipped' || st === 'not-needed' ? '⏭️' : '📋'
-                                ) : '🚫'}
-                              </span>
+                              <div key={t.id} className="row spread" style={{ padding: '8px 10px', borderRadius: 8, background: '#f9fafb', alignItems: 'flex-start', gap: 8, marginLeft: hasMultipleStrands ? 12 : 0 }}>
+                                <div style={{ flex: 1, minWidth: 0 }}>
+                                  <div style={{ fontWeight: 500, fontSize: '0.9rem' }}>{t.title}</div>
+                                  <div className="muted" style={{ fontSize: '0.8rem' }}>
+                                    {t.description}{t.category ? ` · ${t.category}` : ''}{t.estimatedSessions ? ` · ${t.estimatedSessions} ses` : ''}
+                                  </div>
+                                </div>
+                                {/* Per-child coverage */}
+                                <div className="row" style={{ gap: 4, flexShrink: 0 }}>
+                                  {children.map(child => {
+                                    const coverage = cov?.[child.id];
+                                    const isInPlan = coverage?.inPlan ?? false;
+                                    const st = coverage?.status ?? null;
+                                    if (editMode) {
+                                      return (
+                                        <button
+                                          key={child.id}
+                                          onClick={() => handleToggleTopic(child.id, t.id, isInPlan ? 'remove' : 'add')}
+                                          disabled={toggling === t.id}
+                                          title={`${child.name}: ${isInPlan ? 'In plan — click to remove' : 'Not in plan — click to add'}`}
+                                          style={{ padding: '2px 6px', borderRadius: 6, border: '1px solid #d1d5db', background: isInPlan ? '#d1fae5' : '#fff', cursor: 'pointer', fontSize: '0.75rem', whiteSpace: 'nowrap' }}
+                                        >
+                                          {child.avatar} {isInPlan ? '✓' : '+'}
+                                        </button>
+                                      );
+                                    }
+                                    return (
+                                      <span
+                                        key={child.id}
+                                        title={`${child.name}: ${isInPlan ? statusIcon(st).label : 'Not in plan'}`}
+                                        style={{ fontSize: '0.85rem', opacity: isInPlan ? 1 : 0.4 }}
+                                      >
+                                        {child.avatar}
+                                        {isInPlan ? (
+                                          st === 'completed' ? '✅' : st === 'pending' || st === 'carried-over' ? '⏳' : st === 'skipped' || st === 'not-needed' ? '⏭️' : '📋'
+                                        ) : '🚫'}
+                                      </span>
+                                    );
+                                  })}
+                                </div>
+                              </div>
                             );
                           })}
                         </div>
-                      </div>
-                    );
-                  })}
+                      );
+                    });
+                  })()}
                 </div>
               </div>
             );
