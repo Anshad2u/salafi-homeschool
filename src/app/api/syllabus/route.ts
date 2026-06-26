@@ -20,6 +20,11 @@ const SUBJECT_INFO: Record<string, { name: string; icon: string }> = {
   'art-music': { name: 'Art & Music', icon: '🎨' },
   'physical-education': { name: 'P.E.', icon: '🏃' },
   'life-skills': { name: 'Life Skills', icon: '🌟' },
+  'adhkar': { name: 'Adhkar & Dua', icon: '📿' },
+  'muttoon': { name: 'Muttoon', icon: '📕' },
+  'coding': { name: 'Coding', icon: '💻' },
+  'computer': { name: 'Computer', icon: '🖥️' },
+  'home-science': { name: 'Home Science', icon: '🏠' },
 };
 
 // GET /api/syllabus?level=3 — Get all topics with per-child coverage

@@ -135,6 +135,11 @@ export const SUBJECTS: SubjectDef[] = [
   { id: "math", name: "Math", icon: "🔢" },
   { id: "science", name: "Science", icon: "🔬" },
   { id: "english", name: "English", icon: "📝" },
+  { id: "adhkar", name: "Adhkar & Dua", icon: "📿" },
+  { id: "muttoon", name: "Muttoon", icon: "📕" },
+  { id: "coding", name: "Coding", icon: "💻" },
+  { id: "computer", name: "Computer", icon: "🖥️" },
+  { id: "home-science", name: "Home Science", icon: "🏠" },
 ];
 
 // ── Skills per subject (IXL-style mastery tracking) ──────────────
@@ -231,6 +236,41 @@ export const SKILLS: Record<string, string[]> = {
     "Gratitude (Shukr)",
     "Respecting elders",
     "Controlling anger",
+  ],
+  adhkar: [
+    "Morning adhkar",
+    "Evening adhkar",
+    "Ayatul Kursi",
+    "Daily duas",
+    "Istighfar",
+  ],
+  muttoon: [
+    "Nawaaqid Al-Islam",
+    "Al-Qawaid Al-Arba",
+    "Al-Usool Al-Thalaatha",
+    "Al-Arbaeen Nawawi",
+    "Ajrumiyya",
+  ],
+  coding: [
+    "Scratch projects",
+    "Python basics",
+    "HTML/CSS",
+    "Algorithms",
+    "Debugging",
+  ],
+  computer: [
+    "Keyboard skills",
+    "File management",
+    "Internet safety",
+    "Word processing",
+    "Spreadsheets",
+  ],
+  "home-science": [
+    "Nutrition basics",
+    "Cooking skills",
+    "First aid",
+    "Household management",
+    "Gardening",
   ],
   quran: [
     "Al-Fatiha memorization",

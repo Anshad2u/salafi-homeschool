@@ -34,6 +34,11 @@ const SUBJECT_GROUPS: Record<string, { label: string; emoji: string }> = {
   'art-music': { label: 'Art & Music', emoji: '🎨' },
   'physical-education': { label: 'Physical Education', emoji: '🏃' },
   'life-skills': { label: 'Life Skills', emoji: '🌟' },
+  adhkar: { label: 'Adhkar & Dua', emoji: '📿' },
+  muttoon: { label: 'Muttoon', emoji: '📕' },
+  coding: { label: 'Coding', emoji: '💻' },
+  computer: { label: 'Computer', emoji: '🖥️' },
+  'home-science': { label: 'Home Science', emoji: '🏠' },
 };
 
 export default function OnboardingPage() {
