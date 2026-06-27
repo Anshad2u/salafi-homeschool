@@ -14,6 +14,7 @@ import { seedAkhlaqEQ } from './curriculum-akhlaq-eq';
 import { seedEnhancements } from './curriculum-enhancements';
 import { seedArabicEnhanced } from './curriculum-arabic-enhanced';
 import { seedEnglishEnhanced } from './curriculum-english-enhanced';
+import { seedScienceEnhanced } from './curriculum-science-enhanced';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
@@ -37,6 +38,9 @@ async function main() {
   await seedHomeScience();
   await seedSafety();
   
+  // Science comprehensive expansion (cross-verified with NGSS, UK NC, CBSE, ACARA, Singapore)
+  await seedScienceEnhanced();
+
   // Enhancements
   await seedAkhlaqEQ();
   await seedEnhancements();
