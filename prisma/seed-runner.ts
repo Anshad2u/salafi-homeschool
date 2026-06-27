@@ -1,3 +1,4 @@
+import { seedFiqhEnhanced } from './curriculum-fiqh-enhanced';
 import { seedAqeedahEnhanced } from './curriculum-aqeedah-enhanced';
 import { seedTajweedEnhanced } from './curriculum-tajweed-enhanced';
 import { seedArabicESL } from './curriculum-arabic-esl';
@@ -66,6 +67,9 @@ async function main() {
   
   // Aqeedah comprehensive expansion (3 Fundamentals, Nawaaqid, Shirk, Iman, Qadr)
   await seedAqeedahEnhanced();
+  
+  // Fiqh comprehensive expansion (Taharah, Salah, Sawm, Zakat, Hajj, Muamalat, Adab)
+  await seedFiqhEnhanced();
 
   const count = await prisma.$queryRawUnsafe<{cnt: number}[]>(
     'SELECT COUNT(*) as cnt FROM "CurriculumTopic"'
