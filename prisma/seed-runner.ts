@@ -1,3 +1,5 @@
+import { seedEQEnhanced } from './curriculum-eq-enhanced';
+import { seedHomeScienceEnhanced } from './curriculum-home-science-enhanced';
 import { seedSeerahEnhanced } from './curriculum-seerah-enhanced';
 import { seedFiqhEnhanced } from './curriculum-fiqh-enhanced';
 import { seedAqeedahEnhanced } from './curriculum-aqeedah-enhanced';
@@ -74,6 +76,12 @@ async function main() {
   
   // Seerah comprehensive expansion (Ibn Ishaq, Ibn Hisham, Ibn Kathir, Shama'il)
   await seedSeerahEnhanced();
+  
+  // Home Science comprehensive expansion (nutrition, cooking, first aid, household, safety, hygiene)
+  await seedHomeScienceEnhanced();
+  
+  // Emotional Intelligence comprehensive expansion (friendship, coping, empathy, boundaries, digital)
+  await seedEQEnhanced();
 
   const count = await prisma.$queryRawUnsafe<{cnt: number}[]>(
     'SELECT COUNT(*) as cnt FROM "CurriculumTopic"'
