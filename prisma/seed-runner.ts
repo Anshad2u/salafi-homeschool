@@ -1,3 +1,4 @@
+import { seedMathEnhanced } from './curriculum-math-enhanced';
 import { seedEnglishESL } from './curriculum-english-esl';
 import { seedTajweed } from './curriculum-tajweed';
 import { seedTafsir } from './curriculum-tafsir';
@@ -51,6 +52,9 @@ async function main() {
   // ESL English comprehensive expansion (Speaking, Vocabulary, Listening, Spelling, Phonics)
   await seedEnglishESL();
   
+  // Math comprehensive expansion (Singapore Math, IXL, UK NC, Montessori, Evan-Moor)
+  await seedMathEnhanced();
+
   const count = await prisma.$queryRawUnsafe<{cnt: number}[]>(
     'SELECT COUNT(*) as cnt FROM "CurriculumTopic"'
   );
