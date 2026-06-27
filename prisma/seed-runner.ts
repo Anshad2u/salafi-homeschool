@@ -1,3 +1,4 @@
+import { seedTajweedEnhanced } from './curriculum-tajweed-enhanced';
 import { seedArabicESL } from './curriculum-arabic-esl';
 import { seedMathEnhanced } from './curriculum-math-enhanced';
 import { seedEnglishESL } from './curriculum-english-esl';
@@ -58,6 +59,9 @@ async function main() {
   
   // Arabic comprehensive expansion (Gateway to Arabic, Qaidah Nooraniah, I Love Arabic)
   await seedArabicESL();
+  
+  // Tajweed & Quran comprehensive expansion
+  await seedTajweedEnhanced();
 
   const count = await prisma.$queryRawUnsafe<{cnt: number}[]>(
     'SELECT COUNT(*) as cnt FROM "CurriculumTopic"'
